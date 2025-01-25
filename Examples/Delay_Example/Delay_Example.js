@@ -1,0 +1,1 @@
+var storyContent = {"inkVersion":21,"root":[["#","^CLASS: delay1","/#","^One.","\n","#","^CLASS: delay2","/#","^More.","\n","#","^CLASS: delay3","/#","^Time.","\n","end",["done",{"#f":5,"#n":"g-0"}],null],"done",{"#f":1}],"listDefs":{}};
