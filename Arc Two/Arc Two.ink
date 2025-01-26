@@ -142,13 +142,76 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     We set off along the main road. It was still morning, so I estimated we would reach the city before sundown. Which was good; father had always said it's dangerous to be on the road at night.
     The road was like any road. Long and hard on my feet. I was used to traversing forests, and the hard stone roads bothered my feet more than I expected. On the bright side, after a short while we emerged from the forest into open meadows, which were beautiful this time of day. The wind sent ripples through the grass like the waves of an ocean. Why couldn't we live here?
     
-    + I pondered this as we continued into the afternoon sun. -> mainRoadHalfA2
+    + I pondered this as we continued, the afternoon sun at our backs -> mainRoadHalfA2
     
 === sideRoadHalfA2 ===
-    -> END
+    As the sun was going down, I spotted a light poking through the trees. I couldn't quite make out what it was, only that we would reach them soon if we continued.
+    + [Go meet them. It could be father.] -> goMeetSideA2
+    + [Hide and wait to see who it is.] -> hideAndSeekA2
+    
+=== goMeetSideA2 ===
+    I decided to go see who it was. Quickening my pace, I hurried along the path until the person came into view. It was not my father, but instead an old man holding a lantern, a small pack slung over his shoulder. He hurried over to me with a stupid grin on his face.
+    "Why hello there! Fancy seeing a young lad like you here on a day like this! Boy oh boy I was just starting to get lonely. What's a young man like you doing out here all by yourself?"
+    
+    Stunned by the man's enthusiastic greeting, I stuttered for a moment.
+    
+    + "I-I'm on my way to the capitol." -> hoboconvoA2
+    + "N-No reason!" -> hoboconvoA2
+    + "I'm exploring!" -> hoboconvoA2
+    
+=== hoboconvoA2 ===
+    "Oh is that so? Well an old man like me knows not to bother young men like you. Still, I wonder if you've heard the news yet?" the man asked earnestly, rubbming his hands together like he'd been dying to tell someone his gossip.
+    + "News? What news?" -> whatNewsA2
+    
+=== whatNewsA2 ===
+    "Well, word is, the queen has been mobilizing her forces for some reason." the man explained eagerly, "Some even say she is preparing to invade."
+    I considered the old man's words. "And what do you think?"
+    The old man smiled "I'm not some fool! I saw a group of soldiers dispatched last night on the western road. They made quite the racket! No, I suspect this is something else indeed!" he exclaimed.
+    My heart froze. Could that have been the men at my house? So they were soldiers after all.
+    "So... Why do you think she sent men that way?" I asked cautiously.
+    "How could I know?" the man laughed, coughing half way through. "but if I were to hazard a guess... it's probably got something to do with the lack of magic in the city. Perhaps they found a new source somewhere..." He muttered, trailing off.
+    I tried to contain myself. Magic? Surely they didn't come seeking magic at my house? The only magic there are in the artifacts my dad studies, but those don't actually work!
+    "Something wrong, kiddo?" the man asked, still smiling.
+    
+    + "It's nothing... How far to the capitol?" -> hoboLeavesA2
+    + "No. I haven't been to the capitol before. A shame about the magic." -> hoboLeavesA2
+    + "No. Thanks for telling me. I'll be on my way then." -> hoboLeavesA2
+    
+=== hoboLeavesA2 ===
+    The man considered my words before replying. "I see. The capitol is only a couple hours from here. Here..." He reached into his pack and pulled out a second lantern, offering it to me earnestly. "It'll be dark soon. Young lads like you shouldn't be wandering about at night." he said, his smile fading.
+    The man's change in demeanor caught me off guard, and all I could do was accept. "Th-Thank you. That's very kind of you. Have a safe journey."
+    The man nodded and continued on without another word, disappearing into the darkness of the forest.
+    I lit the lantern with the small wick inside, turning away from the direction the old man went.
+    [Continue to the capitol.] -> arriveSideA2
+=== hideAndSeekA2 ===
+    I hid in the underbrush, putting a finger to my lips and glaring at Jonji. Eventually, we saw an old man approaching, carrying a lantern and a small pack. Straining my ears, I could barely make out words.
+    "I'm far too old for this. But I had best keep going..."
+    + [Go out and talk to him]  -> stopHidingA2
+    + [Let him pass by] -> passByA2
+    
+=== stopHidingA2 ===
+    The man turned to face me when he heard me coming, smiling brightly
+    "Why hello there! Fancy seeing a young lad like you here on a day like this! Boy oh boy I was just starting to get lonely. What's a young man like you doing out here all by yourself?" the man exclaimed
+    
+    Stunned by the man's enthusiastic greeting, I stuttered for a moment.
+    
+    + "I-I'm on my way to the capitol." -> hoboconvoA2
+    + "N-No reason!" -> hoboconvoA2
+    + "I'm exploring!" -> hoboconvoA2
+    
+=== passByA2 ===
+    The man passed by, not noticing me in the slightest. For a moment, it looked like he spotted me, squinting into the forest. But after a moment he turned away, muttering something under his breath.
+    Breathing a sigh of relief, I waited for him to be out of sight before continuing down the path.
+    + [Best to avoid him. We must be close to the capitol now.] -> arriveSideA2
+    
+
 === mainRoadHalfA2 ===
     -> END
     
+    
+    
+=== arriveSideA2 ===
+    -> END
     
     
     
