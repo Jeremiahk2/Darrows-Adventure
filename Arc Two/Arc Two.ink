@@ -24,9 +24,23 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     I use my hunting knife to tear a scrap of cloth off the bottom of my pants, before tying it around the wound.
     "Can you walk on it?" I asked Jonji, not expecting much.
     Jonji, for his part, made a very deliberate effort to look exasperated as he attempted to get on both feet, before falling back on the ground unceremoniously.
-    "Thanks. I get it." I said, slightly annoyed at Jonji not taking the situation seriously. "Well we need to decide what to do now." I muttered, taking stock of what I brought with me. It wasn't much. A shabby map of the kingdom and a bit of food.
+    "Thanks. I get it." I said, slightly annoyed at Jonji not taking the situation seriously. "Well we need to decide what to do now." I muttered, taking stock of what I brought with me. It wasn't much. A shabby map of the kingdom and a bit of food. We were in a bad situation. 
+    Without much food and with Jonji's leg the way it was, we needed to find somewhere to go, not only to get answers but also somewhere safe to rest and recover.
     + [Look at the map] -> mapA2
     
 === mapA2 ===
+    As I sat down to examine the map, Jonji looked over disinterestedly at the map. There wasn't much to see. I pointed to the marking that represented our house, and then followed the rough path we traveled into the woods. 
+    "Let's see, Jonji. From here, we could go back to the house and hope that the guards aren't there..." I said. {listenA2: "We really didn't travel that far, so it is an option, if we think the ones chasing us have already returned from where they came."} {keepGoingA2: "But we've come pretty far. It might be easier to go somewhere else" I muttered, glancing at Jonji's injured leg.}
+    Beyond the forest, the map showed the capital city of the kingdom. I had never been there before, but it would be somewhere to stay while we figured things out. We can't stay in the forest for too long. In the past, I had only stayed in the forest for a few days while hunting.
+    {closerLookA2: Also, if Jonji's leg is infected, we might not be able to heal it at my house...}
+    
+    + "Let's try to return home. Maybe those men have left by now." -> backHomeA2
+    + "Let's venture to the capital city. We need to figure out what's going on, and it's not safe at home." -> toCapitalA2
+    * {closerLookA2}"Let's go to the capital city. I'm worried about your leg. It could be infected or worse, and someone there might be able to help." ->toCapitalA2
+    
+    === toCapitalA2 ===
+    -> END
+    === backHomeA2
+    
     -> END
     
