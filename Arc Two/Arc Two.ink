@@ -1,4 +1,10 @@
 ->introA2
+=== punchA1 ===
+->END
+=== shoulderA1 ===
+-> END
+=== knifeA1 ===
+-> END
 
 === introA2 ===
 Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly to make sure he was still there. I jumped over roots and passed by familiar trees as I weaved my way through the woods I grew up in. After a while, I stopped hearing shouting. I turned the way I had come and listened. Nothing.
@@ -84,13 +90,63 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     
     DARROW DIED
     -> END
+=== askJonjiA2 ===
+    Jonji looked at me and then down at the map, before simply putting a claw on the capital. Clearly, he wants to get there sooner than later.
+    I rolled my eyes. "Have I ever mentioned how helpful you are?" I replied sarcastically, before considering the map again.
     
+    + "We should take the side path. We might find father, and we don't want to run into those men again." -> sidePathA2
+    + "We should take the main road. We need to get out of here fast." -> mainRoadA2
+    * {closerLookA2} "We need to take the main road. Your injury could get worse, so we need to get there fast." -> mainRoadA2
     
 === sidePathA2 ===
-    -> END
+-> walkToPathA2
 === mainRoadA2 ===
+-> walkToPathA2
+
+=== walkToPathA2 ===
+    With that settled, we made our way {sidePathA2: southeast}{mainRoadA2: norh}, towards the {sidePathA2: path}{mainRoadA2: road} marked on the map. 
+    Now that we had decided a course of action, thoughts of what happened drifted to the surface of my mind.
+    "Why were we attacked?" I asked aloud, thinking back to the moment they entered the house.
+    {punchA1: 
+    "Now that I think about it, they said they were looking for some kind of artifact. Is it one that dad had? Why would they want those?"
+    At this, Jonji twisted awkwardly in his perch on my shoulder
+    "Is your leg still bothering you? I'll take a look at it again when we get to the path."
+    }
+    {shoulderA1 and knifeA1: 
+    "Maybe they wanted something from the house? They definitely didn't seem like common robbers though." I remarked, thinking about how they easily overpowered me.
+    }
+    "Perhaps they could have been soldiers... They were certainly strong enough for that to be the case." I said, puzzled.
+    When no immediate answers came to me, I sighed. "Hopefully we find father along the path. He might know. Perhaps he forgot to pay taxes."
+    {listenA2 and turnBackA2: After quite a bit of walking, we finally arrived at the {mainRoadA2: main road} {sidePathA2: path, though it was a bit hard to find.}}
+    {keepGoingA2: After a short walk, we arrived at the {mainRoadA2: main road} {sidePathA2: path, though finding it proved more difficult than expected.}}
+    
+    * {sidePathA2} [Follow the path] -> onSideRoadA2
+    * {mainRoadA2} [Follow the road] -> onMainRoadA2
+    * [Check on Jonji] -> jonjiExpoA2
+    
+=== jonjiExpoA2 ===
+    Before setting out on the path, I decided to check on Jonji's condition. It was worse than expected. The good news is that the wound had stopped bleeding.
+    {checkJonjiA2: The bad news was that the gray area around the wound had continued to spread. Infection usually wouldn't spread this fast. Something must be wrong.}
+    {not checkJonjiA2: the bad news was that a strange gray area had formed around the wound. It almost looked like infection, but something about it seemed unnatural.}
+    Jonji simply looked down at his leg, then back up at me, and pointed his head in the direction of the capitol. He's right, The sooner we get there, the sooner we might find help for him.
+    * {sidePathA2} [Follow the path] -> onSideRoadA2
+    * {mainRoadA2} [Follow the road] -> onMainRoadA2
+=== onSideRoadA2 ===
+    We set off along the forest path. It was still morning, but the path was long. It could easily take until well after nightfall to reach the city. Father would usually leave first thing in the morning, but I didn't have that luxury.
+    The path certainly had its perks. For one, the sun didn't bother me as much thanks to the thick canopy of leaves overhead. Still, I could have done without the roots constantly tripping me up. But the scenery was nice. It was different than traveling without a path. Since the path's area had been cleared, you had a better view of the beautiful forest. It didn't seem as dangerous either. Though that might change when night falls.
+    + I quickened my pace. I didn't want to find out. -> sideRoadHalfA2
+    
+    
+-> END
+=== onMainRoadA2 ===
+    We set off along the main road. It was still morning, so I estimated we would reach the city before sundown. Which was good; father had always said it's dangerous to be on the road at night.
+    The road was like any road. Long and hard on my feet. I was used to traversing forests, and the hard stone roads bothered my feet more than I expected. On the bright side, after a short while we emerged from the forest into open meadows, which were beautiful this time of day. The wind sent ripples through the grass like the waves of an ocean. Why couldn't we live here?
+    
+    + I pondered this as we continued into the afternoon sun. -> mainRoadHalfA2
+    
+=== sideRoadHalfA2 ===
     -> END
-=== askJonjiA2 ===
+=== mainRoadHalfA2 ===
     -> END
     
     
