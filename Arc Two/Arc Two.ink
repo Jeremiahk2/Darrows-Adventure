@@ -39,8 +39,95 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     * {closerLookA2}"Let's go to the capital city. I'm worried about your leg. It could be infected or worse, and someone there might be able to help." ->toCapitalA2
     
     === toCapitalA2 ===
-    -> END
-    === backHomeA2
+    Jonji seemed to agree, pointing his good leg at the capitol marking on the map. 
+    Tracing back to our location, it seemed like there were two ways to go. The first way is the main road. The main road has it's advantages. It's faster, and with any luck will be safer. On the other hand, it could be more dangerous, since bandits and the like would be more likely to attack it, and we'd be more likely to run into our own attackers.
+    Alternatively, there was a forested path that my father usually used. He liked it because he doesn't like people that much, and its relatively unused. Having said that, it's longer, and you never know what type of people you might meet on it. But, it's more subtle and less danger prone.
     
+    + "We should take the side path. We don't want to run into those men again." -> sidePathA2
+    + "We should take the main road. We need to get out of here fast." -> mainRoadA2
+    * {closerLookA2} "We need to take the main road. Your injury could get worse, so we need to get there fast." -> mainRoadA2
+    * "What do you think, Jonji? Which way should we go?" -> askJonjiA2
+    
+    
+    === backHomeA2
+    Jonji stared at me like I was an idiot. He then made a show of hobbling back the way we came, before once again falling over in exasperation.
+    
+    "Don't be such a drama queen. I'll carry you like before."
+    
+    After picking up Jonji, I headed back the way I came, hoping the men would be gone by now.
+    
+    {listenA2: 
+    It didn't take long to get there, and soon enough we peered through the trees at our house. Sure enough, there were no signs of the men from before. Still, considering that it hadn't been that long, it's odd they left so soon without looking for us.
+    + [Go to the house. There's no reason for them to come back.] -> houseA2
+    + [Turn back. They could come back any time. It might not be safe to stay here.] -> turnBackA2
+    }
+=== turnBackA2 ===
+    With a heavy heart, I decided to turn back. I grew up in that house. I raised Jonji in that house, grew to love my father in that house, and lost my mother in that house. But it's not safe. In fact, my father is still a tthe capitol, I should go and warn him not to return.
+    I headed back to the clearing I stopped at before and examined the map in my bag again. To the capitol it is.
+    Tracing the map back to our location from the capitol, it seemed like there were two ways to go. The first way is the main road. The main road has it's advantages. It's faster, and with any luck will be safer. On the other hand, it could be more dangerous, since bandits and the like would be more likely to attack it, and we'd be more likely to run into our own attackers.
+    Alternatively, there was a forested path that my father usually used. He liked it because he doesn't like people that much, and its relatively unused. Having said that, it's longer, and you never know what type of people you might meet on it. But, it's more subtle and less danger prone. Also, if my father is returning, I'll probably bump into him.
+    
+    + "We should take the side path. We might find father, and we don't want to run into those men again." -> sidePathA2
+    + "We should take the main road. We need to get out of here fast." -> mainRoadA2
+    * {closerLookA2} "We need to take the main road. Your injury could get worse, so we need to get there fast." -> mainRoadA2
+    * "What do you think, Jonji? Which way should we go?" -> askJonjiA2
+    
+=== houseA2 ===
+    I crept back up to the house. There were no sounds, no sign of anyone around, though it was clear they had been in the house. I cautiously entered the house through the front door. Inside the house, the kitchen table was overturned, dishes had been smashed, and the pantry had been raided. All-in-all, the place was destroyed.
+    My body froze when I thought of the safe where my father kept our family savings. Since I came of age, he told me where it was and where the key was. "Under the bed and in the bear" was how he worded it. In other words, the safe was under his bed and the key was in the bear skin rug.
+    
+    + [Go to the safe.] -> safeDeath
+    
+=== safeDeath ===
+    I hurried to my father's room, throwing open the door and getting on all fours to look under the bed. To my great relief, the box was still there.
+    To my everlasting dismay, however, I heard the sliding noise of a sword on a scabard, and turned to see a hulking man above me. It seems they left someone in case I came back. They're smart, whoever they are. This was the last thought I had before the sword came down, ending my life.
+    
+    DARROW DIED
     -> END
+    
+    
+=== sidePathA2 ===
+    -> END
+=== mainRoadA2 ===
+    -> END
+=== askJonjiA2 ===
+    -> END
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
