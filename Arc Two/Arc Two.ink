@@ -182,7 +182,7 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     The man's change in demeanor caught me off guard, and all I could do was accept. "Th-Thank you. That's very kind of you. Have a safe journey."
     The man nodded and continued on without another word, disappearing into the darkness of the forest.
     I lit the lantern with the small wick inside, turning away from the direction the old man went.
-    [Continue to the capitol.] -> arriveSideA2
+    + [Continue to the capitol.] -> arriveSideA2
 === hideAndSeekA2 ===
     I hid in the underbrush, putting a finger to my lips and glaring at Jonji. Eventually, we saw an old man approaching, carrying a lantern and a small pack. Straining my ears, I could barely make out words.
     "I'm far too old for this. But I had best keep going..."
@@ -206,14 +206,97 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     
 
 === mainRoadHalfA2 ===
-    -> END
+    As the sun slowly made it's way to the horizon behind me, I reflected a bit on my goals. First, I needed to find father. He might know why our home was attacked. Second, I need to try and uncover what those men could have been after. Third, I need to find out what's going on with Jonji. Of course, if I can find father, it might solve my other problem as well...
+    As I contemplated how my life had turned upside down, I almost missed seeing a cart with several people nearby on the horizon. I needed to quickly come up with a plan.
+    + [Try to hide. There's a small boulder nearby I might be able to use.] -> mainRoadHideA2
+    + [Pass by normally. They're probably not after me.] -> mainRoadPassA2
+    + [Try to talk to them. Maybe I can get information] -> mainRoadTalkA2
+    
+=== mainRoadTalkA2 ===
+    I walked confidently towards them. Jonji growled nervously. I quickly shushed him and stuffed him in my shirt. Father did tell me not to let others see Jonji. 
+    As they got closer, new unwelcome details greeted me. First, the cart was quite impressive. It was wooden, but it was a fine wood, with two oxes pulling it. The cart was practically surrounded by a large contingent of soldiers.
+    As they approached, I decided to try to talk to them.
+    "Greetings!" I said.
+    The guard in front; the captain, by the looks of it, glared at me. He gripped his sword tightly.
+    "We're in a hurry. Move it or lose it." he said roughly.
+    
+    + "Lose what?" -> mainRoadDeathA2
+    + "Ah, my mistake. Wrong person." -> continueMainRoadA2
+
+=== mainRoadDeathA2 ===
+The guard smiled, before taking out his sword and cutting off my head. As it fell to the ground, I had just enough time to think "Ah. My head. I suppose they were in a hurry after all."
+
+DARROW DIED.
+-> END
+
+=== continueMainRoadA2 ===
+    The guard shoved me out of the way and continued. Since I was so close, I could hear a faint voice from inside the cart. It was soft and kind. It sounded vaguely feminine. "Enough of these interruptions. Doesn't that oaf know we're in a hurry? If we don't secure the artifact, we will have many more problems on our hands."
+    My pace quickened as I heard this. After some time, I turned to see the carriage dipping below the hill. At this, I allowed myself to breathe. They are after one of father's artifacts! But why? Well, I suppose it might not be one of father's, but that's too much of a coincidence. Why are they travelling that way then? They already raided my house...
+    I pondered this for a while, but when no answers came to me, I had no choice but to continue along the road. If answers exist, they're likely at the capitol.
+    + [Continue onwards. Nearly there.] -> mainCapitolApproachA2
+
+=== mainRoadHideA2 ===
+    I hid myself behind a small boulder. It was tight, but with the sun at my back, it might be hard for them to see me.
+    As they got closer, new unwelcome details greeted me. First, the cart was quite impressive. It was wooden, but it was a fine wood, with two oxes pulling it. The cart was practically surrounded by a large contingent of soldiers.
+    From my position off to the side of the road, I couldn't hear much. The clacking of the guards armor and the wheels of the cart covered up any sound. As I strained to hear something, a guard turned towards me.
+    I quickly ducked away, but the guard began walking over to me. Excuses raced through my head. I was tying my shoe! I tripped and fell! This rock is extroadinary! Look! a four leaf clover!
+    Thankfully, I didn't have to use any excuses. Another guard came over, grabbing the first one. "Come back here you idiot. Do you want your head on a pike? Or did you forget we're in a hurry?" he exclaimed, yanking him back to the cart.
+    I watched them go. When they arrived back at the cart, one of the soldiers, their captain perhaps, pulled them aside. Whoops. I suppose I got them in trouble. Oh well. At least they didn't spot me.
+    As soon as the cart dipped below the hill, I got back on the road.
+    + [Continue onwards. Nearly there.] -> mainCapitolApproachA2
+
+=== mainRoadPassA2 ===
+    I mustered up my courage and tried to walk normally towards them. I contemplated the proper way to walk as I quickly forgot which arm moves with which leg. Eventually I figured it out and made my way towards them.
+    As they got closer, new unwelcome details greeted me. First, the cart was quite impressive. It was wooden, but it was a fine wood, with two oxes pulling it. The cart was practically surrounded by a large contingent of soldiers. As I got closer, Jonji started to growl, so I quickly shoved him into my shirt.
+    The soldiers sneered at me as they passed, but I did manage to hear something. A soft, female voice inside the cart.
+    "...That's why we need to hurry. Why did we have to take the ox cart you fool? We could have been there by now with the carriage. If we fail to get the..."
+    My eavesdropping was interrupted by a soldier giving me an angry look and shoving me to the side as he passed. Thankfully, he didn't do anything else, and I passed without incident.
+    + [Continue onwards. Nearly there.] -> mainCapitolApproachA2
+    
+=== mainCapitolApproachA2 ===
+    After a short walk, I crested a hill and finally saw it. The rolling hills continued, before becoming more subdued, turning into grassy plains. The sun cast an orange light the grass, making it look like autumn had come early. 
+    But the crown jewel was a large, walled city some distance away. From my vantage point, it appeared that the city rested on a hill itself, because some parts of the city were visible over the walls. 
+    Continuing along the road, new details came into view. The walls were quite high, but not that high. It was high enough to keep people from entering, but certainly not high enough to keep it from being attacked by siege weaponry. Strange.
+    The main raod led directly to the front gate, at which I could see several people gathered. Some of them were soldiers and some of them appeared to be common people. The guards were lazily allowing people into the city.
+    
+    + [Approach with the others. They don't have any reason to not let me in.] -> mainGuardsApproachA2
     
     
-    
+=== mainGuardsApproachA2 ===
+    I stood in line, waiting my turn. The guards gave one look at my worn out clothes, tired expression, and lack of baggage. Clearly, I wasn't a thread. They waved me in at last.
+    I passed by them and finally entered the city. Time for some answers.
+    -> introA3
 === arriveSideA2 ===
-    -> END
+    After just a few hours of walking, I could tell we were nearing the end of the forest. The trees started to be less crowded, and the moon was much more visible. At long last, the forest opened up to reveal a large landscape, complete with rolling hills and grassy plains. 
+    But the crown jewel was a large, walled city some distance away. From my vantage point, it appeared that the city rested on a hill itself, because some parts of the city were visible over the walls. I couldn't quite make out any details, aside from the lights. It was a stark contrast to our home at night, which always looked dark and foreboding. This, however, looked welcoming.
+    Continuing along the path, new details came into view. The walls were quite high, but not that high. It was high enough to keep people from entering, but certainly not high enough to keep it from being attacked by siege weaponry. Strange.
+    Additionally, I could see a gate at the southern side, and decided to make my way over.
+    As I got closer to the gate, I could tell that the lights were certainly powered by some kind of magic. They didn't behave like torches would, and I couldn't smell smoke or see any sign of burning. As I approached the gate, I also noticed a few guards. I would have been worried... Except they seemed... Somewhat distracted. By whatever was in their mugs.
     
+    + [Approach them calmly. They have no reason to be suspicious of me.] -> approachGuardsA2
     
+=== approachGuardsA2 ===
+    One of the guards noticed me and stood up, swaying side to side as he did. "H-Halt! Who g-goes there? Sssstate your purpose!" He stuttered, looking in my general direction.
+    
+    + "I'm John. I was on an errand and have just returned." -> lieA2
+    + "I'm Darrow. I've come looking for my father, who hasn't come home in a while." -> neutralA2
+    + "I'm Darrow. You have to help me! I was attacked and my pet is hurt!" -> insaneA2
+
+=== lieA2 ===
+    "Oh. Get on through then... James!" the man replied, getting back to his drink.
+    Perhaps I didn't need to lie with this one. Security sure is lax around here. I passed into the city without any problems.
+    -> introA3
+=== neutralA2 ===
+    "Your father eh? How boring. Now if it was your sister I might help you look..." The man trails off, lost in his fantasy for a moment. "Anyway" he continued, "I guess'n that's fine. Go on through."
+    Greatly relieved, I passed by the man and into the city.
+    -> introA3
+=== insaneA2 ===
+    The man opens his eyes all the way, looking me up and down as if to reassure himself he wasn't dreaming, before sighing. "Am I drunk or are you? Calm down k-kid... I'm sure it's just one too many. If you-" he hiccups, "if you really need help, you can see my captain. He's in there... Somewhere..." He replies, gesturing vaguely at the open gate. "Go away now." he finished, settling back down.
+    Taking that as permission, I quickly walked past the man and into the city.
+    -> introA3
+    
+=== introA3 ===
+-> END
     
     
     
