@@ -1,10 +1,192 @@
-->introA2
+Sunlight gleamed off the morning dew, and the soft sound of windchimes drifted lazily through the air. The large Victorian house stood tall, unmoving in the meadow. A shining star in the otherwise quiet expanse—or perhaps an off-key note, discordant and out of place
+
+Darrow turned, a strange tugging sensation pulling at him from deep within. It was as though the world had shifted ever so slightly, but the air remained unnaturally still. Something was wrong. Too quiet. He had lived here all his life, but today, the peace felt... hollow. Like a sound waiting to be made, but never coming.
+
+-> introductionA1
+
+=== introductionA1 ===
+"Well, Jonji, I guess it's time to start the day. What do you say?"
+I looked over at the small serpent-like creature sitting on the windowsill as it made a soft growl, almost as if in response to my question. I jumped out of bed and threw on my everyday outfit consisting of some slightly worn jeans, a tattered green shirt, brown boots, and my old belt which had my hunting knife and a pouch on the side.
+
++ [Head down stairs.] -> stairsA1
++ [Look out the window.] -> windowA1
+
+ === windowA1 ===
+"Someone must have been camping." I say as I see a trail of smoke a good ways away from the house in the distance.
+
+"Hmm strange nobody is usually out here."
+-> stairsA1
+
+=== stairsA1 ===
+Guess I should go get started on some breakfast. Considering I don't already smell any I'll assume dad’s still out for work.
+
+After heading down the stairs I noticed dad had left a light on in his office.
+
++ [Investigate the office.] -> officeA1
++ [Breakfast comes first.] -> breakfastA1
+
+=== officeA1 ===
+"Dad's really gotta do better about turning the lights off when he leaves..." I muttered to myself as I stepped into the office "Whoooaa, you really went overboard with this one, didn't you, old man?".
+
+The place was a wreck. Papers and books scattered everywhere, books laid out on the floor, artifacts scattered around the room. The whole sight was like the aftermath of a hurricane.
+
+"This place is a total mess, right, Jonji?"
+
+I turned to see Jonji scraping furiously at the page of a book on the middle of dad's desk. The book had to be as wide as my torso, like some prop for a circus skit.
+
+"Jonji, what are you doing?"
+
+He paused for a moment to glance at me, and then went right back to scratching.
+
++ "Come on Jonji, time for breakfast" [(turn off lamp and go to kitchen)] -> breakfastA1
++ Investigate the book -> bookA1
+
+ === bookA1 ===
+"What did this poor book do to you, Jonji?" I asked as I stepped around the large desk while dodging items on the cluttered ground.
+
+"What is that thing? You don't happen to have a long lost brother do yah?" I asked while looking at the painting of a dragon-like statue that resembled Jonji. Almost immediately he turned and shrieked at me before snapping at my arm with his tiny jaws.
+
+"Owww, it was just a joke jeez." I said, but Jonji just turned back to the book. To be honest he has never done anything like that before. The whole interaction was just weird.
+
+"Alright time for breakfast. I'm starving." -> breakfastA1
+
+ === breakfastA1 ===
+After entering the kitchen and opening the pantry I felt a great sense of dread as I realized my options
+
++ [oatmeal] ->
+	"Oatmeal it is"
+	-> doorA1
++ [bread]  ->
+	"I guess bread will have to do"
+	-> doorA1
+
+=== doorA1 ===
+After eating breakfast I started back through the foyer when suddenly Jonji started to growl.
+
+"You sure are acting strange today."
+
+Jonji continued to growl as his eyes became fixated on the main door in front of me. It wasn't but a few seconds later when I noticed two dark figures standing side by side through the glass of the door.
+
+"Knock Knock" I heard two beats on the door
+
+We don't normally get guests and that is definitely not dad outside. I suppose I could answer the door. Or maybe I should check the window in the living room to see if I can get a better idea of who is here.
+
++ [Answer the door.] -> good_greetingA1
++ [Check the window.] -> bad_greetingA1
+
+=== good_greetingA1 ===
+"Can I help you gentlemen with something?", I said as I opened the door to reveal two large men, both wearing long trench coats. The one to the left looked younger and wore a face of seriousness. The one to the right was much older and didn't even seem to notice me.
+
+"Where is your father?", said the man to the left in a rough and demanding tone.
+
++ "Who's asking?"
+-> ask_againA1
++ "Well he's actually out right now." -> enter_houseA1
++ "I think you guys should come back another time" -> enter_houseA1
+
+=== ask_againA1 ===
+"That doesn't concern you now answer the question"
+
++ "Well he's actually out right now." -> enter_houseA1
++ "I think you guys should come back another time" -> enter_houseA1
+
+=== enter_houseA1 ===
+Within a flash I felt my body collide with the floor. The man to the right had barely pushed my chest, but it felt as if I had been stepped on by a horse. Within the action Jonji had jumped from my shoulder directly at my opponent, but as soon as he had left my shoulder he was thrown back to the ground.
+
+"Jonji!!", as I rushed over to the tiny dragon to ensure he was okay the men paid me no mind. They quickly started through the house. The older one went straight to dads office and the younger one went up the stairs. After ensuring Jonji was okay I stood up.
+
++ [Follow the younger man upstairs.] -> upstairsA1
++ [Follow the older man into dads office.] ->dads_officeA1
+
+=== bad_greetingA1 ===
+I rushed to the living room window with Jonji on my shoulder and peered out to see two large men both wearing long trench coats. One was much older than the other. After a few seconds the younger one's eyes turned to look straight through me.
+
+"BOOOOOM!!!", almost immediately after the front door shot through the foyer slamming into the wall directly across from it.
+
+In an instant the men had entered the house. The older one went straight for dads office and the younger one headed up the stairs.
++ [Chase after the younger man upstairs] -> upstairsA1
++ [Confront the older man in dads office] -> dads_officeA1
+
+=== dads_officeA1 ===
+{ officeA1:
+	I rushed into dad's office only to find it in an even worse state than earlier. The older man stood behind dad's previously upright desk that had now been flipped with everything except the larger book laying on the ground.
+}
+{ not officeA1:
+	I rushed into dad's office to find a complete mess, and the older man standing guilty in the middle of the room.
+}
+
+"You wouldn't happen to know what your father's latest project is now would you boy?"
+
++ "No idea! You know you could have just asked me about it instead of forcing your way into our house!" ->
+
+"My partner doesn't care much for negotiation.", said the older man right before I felt someone grab me from behind and pin me against the wall.
+-> final_confrontationA1
+    
++ "Is that what all of this is about?"
+-> wall_pinA1
+
+=== wall_pinA1 ===
+Before the man could answer someone had grabbed me from behind and thrown me to the wall.
+-> final_confrontationA1
+
+=== upstairsA1 ===
+I immediately chased up the stairs after the younger man.
+
+“Who are you guys? What do you want?” I said to the man as he entered my room, but he didn’t even turn to look at me.
+
++ "Hey what are you doing?" -> punchA1
++ [Grab the man's shoulder.] -> shoulderA1
++ [Attack the man with a hunting knife.] ->knifeA1
+
 === punchA1 ===
-->END
+The man ignored me and began to trash my room throwing my dresser drawers to the ground in search of something. A few moments later the older man appeared in the door behind me. "The artifact is not here.", he spoke to his younger partner.
+    
+"Ahhh", I staggered back through the door frame as the younger man punched my gut.
+    
+"Where is it boy? Where is the artifact?" said the younger man who I could have sworn just seperated my soul from my body.
+
+In the heat of the moment Jonji had leapt from my shoulder in an attempt to attack the younger man, but in one quick slash of his arm the man sent Jonji hurdling back to me at twice the speed of his jump. I heard a sad growl from the small beast and the realization began to sink in that we needed to run. I scrambled to my feet and flew down the stairs out of instinct.
+-> final_confrontationA1
+
 === shoulderA1 ===
--> END
+Right after touching the man's shoulder he spun around and hit me hard in the chest with his forearm.
+
+“Ahh”, the force was strong enough to send me flying through my bedroom doorway and into the hallway in front of the stairs.
+
+-> knife_shoulderA1
+
 === knifeA1 ===
--> END
+Even though these guys have been ignoring me so far I figure that will change if they don't find what they're after. Bet he'll be surprised to find a knife in his back.
+
+I lunged forward with all my might, readying the knife that was just hanging to my side.
+
+"That...was really stupid." said the man as I stood behind him with my knife plunged deep into the back of his left shoulder. I would have gone for his neck, but I fear I wouldn't even be able to reach the top of his shoulders.
+
+I felt the cold grasp of the older man as he grabbed my shoulder, and threw me out the doorway and into the upstairs hallway. Even though I had ripped my knife out of the younger mans shoulder I could only see a small bit of blood on the blade.
+-> knife_shoulderA1
+
+=== knife_shoulderA1 ===
+I quickly scrambled to my feet, but right as I did I noticed the older man was now in the hall beside me. Before I could react he sent me flying down the stairs.
+    
+"Where is the artifact?", shouted the older man as I fell.
+    
+I heard a startled yelp as I remembered Jonji had been atop my shoulder this entire time. He must have hurt something while we fell down the stairs.
+
+I quickly realized this was no time to fight. I needed answers. What is going on? Where is dad? But first I need to get out of here and check on Jonji.
+-> final_confrontationA1
+
+ === final_confrontationA1 ===
+{ dads_officeA1:
+	I struggled against the younger man but it was no use. He held me against the wall with one arm and my vision began to blur as he moved his hand around my neck. everything started to fade. It became clear to me that whatever their purpose was I was not an important part of it.
+    
+	"Ahhh. You worthless pest!"
+    
+	the younger man shouted as Jonji lept from behind me and bit into the side of his face. I fell to the ground as he released my neck only to use that hand to send Jonji flying into the foyer. Before I could think my body acted and I jumped to my feet sprinting out of the office and grabbing Jonji.
+}
+
+ 
+I rushed out the front door with Jonji in hand. I turned to see the older man stepping out of the door as he watched me disappear into the forest.
+->introA2
 
 === introA2 ===
 Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly to make sure he was still there. I jumped over roots and passed by familiar trees as I weaved my way through the woods I grew up in. After a while, I stopped hearing shouting. I turned the way I had come and listened. Nothing.
@@ -265,7 +447,7 @@ DARROW DIED.
 === mainGuardsApproachA2 ===
     I stood in line, waiting my turn. The guards gave one look at my worn out clothes, tired expression, and lack of baggage. Clearly, I wasn't a thread. They waved me in at last.
     I passed by them and finally entered the city. Time for some answers.
-    ->
+    ->introA3
 === arriveSideA2 ===
     After just a few hours of walking, I could tell we were nearing the end of the forest. The trees started to be less crowded, and the moon was much more visible. At long last, the forest opened up to reveal a large landscape, complete with rolling hills and grassy plains. 
     But the crown jewel was a large, walled city some distance away. From my vantage point, it appeared that the city rested on a hill itself, because some parts of the city were visible over the walls. I couldn't quite make out any details, aside from the lights. It was a stark contrast to our home at night, which always looked dark and foreboding. This, however, looked welcoming.
@@ -294,42 +476,271 @@ DARROW DIED.
     The man opens his eyes all the way, looking me up and down as if to reassure himself he wasn't dreaming, before sighing. "Am I drunk or are you? Calm down k-kid... I'm sure it's just one too many. If you-" he hiccups, "if you really need help, you can see my captain. He's in there... Somewhere..." He replies, gesturing vaguely at the open gate. "Go away now." he finished, settling back down.
     Taking that as permission, I quickly walked past the man and into the city.
     -> introA3
-    
+-> introA3
+
 === introA3 ===
+As I made my way into the city, I felt like a small ant entering a human's house for the first time. Truthfully, I’ve only ever been to the capital once—12 years ago. The only thing I remember from that trip was following Dad around while he met with a group of scholars from Wyrmgate, the city’s most prestigious school for studying enchanted artifacts. Come to think of it Jonji was so little back then. I think I had only found him a week prior.
+
+The capital city loomed large around me. The streets buzzed with activity, the air filled with strange smells and distant chatter. My legs ached from the journey, and my stomach growled. I needed a place to sleep.
+
+I spotted a crooked sign above a narrow door. It looked out of place amid the grand city, but something about it intrigued me. Inside, a man in a wide-brimmed hat sat behind a counter, watching me with a knowing smile.
+
+"Why hi there, you sir look to have seen much better days. But don't fret cause with just one purchase of these problem solving elves we can turn that frown upside down."
+
++ "Problem solving elves?" 
+    -> elvesA3
++ "Who are you?" 
+    -> whoA3
++ "Not interested" 
+    -> not_interestedA3
++ [Ignore the man and keep walking.] 
+    -> ignoreA3
+
+=== elvesA3 ===
+"Problem solving elves!" The shopkeeper chuckled, leaning forward. "They’re a rare breed—small, efficient little creatures. They help with whatever ails you. Need a good night’s sleep? They’ll lull you right to it. Want to solve a problem or two? You’ll be amazed how quickly they get to work." He winked, his eyes twinkling with mischief. "Simply take one of these green orbs and toss it at the ground and from the smoke 3 little elf guys will appear to fulfill your request."
+
++ "Do they really work?" 
+-> elvesQuestionsA3
++ "No thanks, I'm fine." 
+-> not_interestedA3
++ "How much do they cost?" 
+-> elvesPriceA3
+
+=== elvesPriceA3 ===
+"1 gold coin for 3 orbs." said the shopkeeper.
+
++ "Do they really work?" 
+-> elvesQuestionsA3
++ "No thanks, I'm fine." 
+-> not_interestedA3
 -> END
+
+=== elvesQuestionsA3 ===
+I asked, skeptical.
+
+"Oh, they work," Jorick said with a grin. "Each one is bound to a specific task, and once they’re set to work, there’s no stopping them. You’ll find them quite efficient… though a bit mischievous sometimes. They love to stir up trouble when they’re bored, but that’s all part of the charm, eh?"
+
+    "Mischievous, you say?" -> elvesTroubleA3
+    "I’ll pass on that for now." -> not_interestedA3
+
+=== elvesTroubleA3 ===
+I raised an eyebrow.
+
+"Oh yes, indeed. Sometimes they’ll move things around, rearrange your furniture, or mess with your dreams," Jorick said, his voice dropping to a lower sinister tone. "But in the end, they get the job done." he said before quickly shifting back to his happy smile.
+
++ "Sounds useful. Unfortunetly I'm all out of money." -> 
+    "Not to worry. This time they're on the house.", said the man.
+    -> acquired_elvesA3
++ "I think I’ll pass." 
+-> not_interestedA3
+
+=== acquired_elvesA3 ===
+I took the small bag of orbs the man handed me and tied it to my waist.
+
+"Problem solving elfs? May come in useful at some point.", I said to myself.
+
+-> keep_walkingA3
+
+=== not_interestedA3 ===
+I shook my head, turning away from the strange man. The last thing I needed was a deal with some random guy with a weird bucket hat.
+
+"Okay well if you change your mind you know where to find me!" yelled the man as he waved with a smile.
+
++ {not whoA3}"Okay." 
+    -> keep_walkingA3
++ {whoA3}"Will do Jorick."
+    -> keep_walkingA3
++ [Keep walking.] 
+    -> keep_walkingA3
+
+=== whoA3 ===
+"Who am I?" The man gave a soft laugh, as if amused by my question. "Well I'm nothing more than a humble shopkeeper, but I suppose you can call me Jorick."
+
+"So about the elves?", said the man as he held a small bag in front of me.
+
++ "Problem solving elves?" 
+    -> elvesA3
++ "Not interested" 
+    -> not_interestedA3
+
+=== ignoreA3 ===
+Probably best I avoid speaking to random strangers. Especially ones as weird as that guy.
+-> keep_walkingA3
+
+=== keep_walkingA3 ===
+I continued walking through the streets of the capital, taking in the views of the large city. In the far distance, I could see one of the towers of Wyrmgate. Although Dad had told me many stories about the place, I had never actually been to the school.
+
+Suddenly, I felt a pressure inside my shirt.
+
+"Jonji!" I whispered urgently. In all the stress of entering the city and my growing weariness, I had forgotten about the injured dragon tucked inside my shirt. I quickly dashed into the closest alleyway between a café and a clothing store to check on him. Upon inspection, I found Jonji asleep. However, the wound on his leg had turned a strange metallic gray color.
+
+I frowned. "It’s getting late. I need to find us a place to sleep, bud. Then we can find some help with your injuries tomorrow."
+
+"Who are you talking to?" A voice interrupted from behind me.
+
+I turned, startled, to find a strange girl standing in the alleyway, watching me curiously. Her eyes were sharp, and she had a confident air about her, almost as if she were used to finding people in odd situations. She tilted her head slightly, giving me an unreadable expression.
+
++ "Just my pet dragon... He's hurt." -> seline_introA3
++ "No one. Just thinking out loud." -> seline_introA3
+
+=== seline_introA3 ===
+She raised an eyebrow, clearly not convinced by my vague answer. "A dragon, huh? That’s... unusual. You don’t see many of those around here." She stepped closer, glancing at Jonji in my shirt. "That wound on your pet doesn’t look too good. If you need help, I could point you in the right direction." She looked me over, considering something before speaking again. "Or, I could just help you myself. You don’t seem like you’ve got much of a plan right now."
+
+She gave me a small smirk. "You look like you need someone who knows their way around here."
+
++ "I could use some help."
+    -> seline_placeA3
++ "Thanks, but I can manage."
+    -> manageA3
++ "Who are you again?"
+    -> seline_introduceA3
+
+=== seline_introduceA3 ===
+"Oh my names Seline.", she said with a smile.
+
+"So what do you say? Want my help?"
+
++ "I suppose I could use some help." 
+    -> seline_placeA3
++ "Thanks, but I can manage."
+    -> manageA3
+
+=== seline_placeA3 ===
+"Alright, follow me," she said, walking with an ease that suggested she knew these streets well. "I stay at a place just a little ways ahead off to the right. It’s not much, but its home."
+
+{not seline_introduceA3:
+As we walked, she introduced herself. "I’m Seline, by the way. You’re not from around here, huh?" she asked, glancing at me with a curious expression.
+}
+
+"Got a name?" she added with a half-smile. "Or should I just call you ‘the guy with the dragon’?"
+
++ "Darrow." 
+    -> darrow_introA3
++ "Does it matter?" 
+    -> no_nameA3
++ "I’m not sure I trust you yet." 
+    -> waryA3
+
+=== no_nameA3 ===
+I said, keeping my eyes on Jonji.
+
+Seline gave me a wry smile. "Fair enough. I’m not exactly one to share my life story either." She gestured down the street. "Let’s not waste time then. You can crash at my place for the night. You look like you could use the rest."
+
++ "Thanks. I appreciate it."
+    -> seline_houseA3
++ "On second thought I think I can figure something out on my own."
+    -> manageA3
+
+=== waryA3 ===
+I said, eyeing Seline carefully. "But I could use a place to sleep."
+
+Her smile didn’t fade. "Fair enough. I’m not one to trust easily either, but I don’t bite." She started walking, motioning for me to follow. "Come on, I’m not in the habit of leaving people to sleep on the streets. You can crash at my place for the night, and we can see about your pet tomorrow."
+
++ "Alright." [(follow the girl)]
+    -> seline_houseA3
++ "I'll sleep somewhere else."
+    -> manageA3
+
+=== darrow_introA3 ===
+I replied, following Seline down the alley. "I’ve been traveling for a while, looking for my father. His name is Ezekiel Grimborne." I added, hoping that the mention of his name might mean something to her.
+
+Her expression flickered slightly at the name, but she said nothing for a moment. "Ezekiel Grimborne, huh?" she murmured, half to herself. "I’ve heard of him. Not sure if that’s good or bad, but he must be important. Anyway, don’t worry about where to sleep. You can crash at my place tonight. We’ll figure out everything else tomorrow."
+
++ "Thanks. I appreciate it." 
+    -> seline_houseA3
++ "On second thought I think I can figure something out on my own." 
+    -> manageA3
+
+=== seline_houseA3 ===
+Darrow ends up staying with Seline. This leads to some more dialogue with Seline. A bit of backstory. She used to study at Wyrmgate before she was expelled due to a faulty expirament with an Artifact. regardless of where Darrow sleeps he will awaken to find Jonji has turned to stone while sleeping. This can mostly be though of as filler to expand upon Selines character in the even we want to use her in future game. I will finish all the detailed dialogue/routes for this by Wednesday 1/29. Still need time to flesh out backstory.
+-> wyrmgateA3
+
+=== manageA3 ===
+{ darrow_introA3 or no_nameA3 or waryA3:
+"Oh...um okay well my place is just right up there. Third floor second door to the right. You really are welcome to stay the night if you need." said the girl as she pointed to the apartment door.
+
+"Why are you being so nice to me?" I asked wondering what would cause this girl to trust a complete stranger who looks like they just found their way off a battlefield.
+
+"I know that look in your eyes." she said as her shoulders slowly dropped and her voice quitened. "Lets just say I know what its like to find yourself completely alone... and its just not something I can stand by and watch."
+
+After a few moments of both of us silently looking to the ground I felt disappointed in myself for refusing her hospitality.
+}
+"Alright. Theres a tavern just around the corner on the left. Here this should cover it." said the girl as she tossed me a gold coin before she turned and left.
+
+"Thanks, but I can't take your money." I said.
+
+"You can pay me back another time. Names Seline." she said without turning around as she continued walking away.
+-> tavernA3
+
+=== tavernA3 ===
+I hesitated for a moment, watching Seline walk away, before deciding to head to the tavern. My mind raced—Jonji needed help, but I didn’t have any other leads at the moment.
+
+The tavern was tucked away down a narrow side street. It was a quiet little place, tucked between larger buildings. Inside, a warm fire crackled in the hearth, and a few patrons lingered at tables, nursing drinks and talking in low voices. I approached the bar.
+
+The barkeep, a heavyset man with a scar over one eye, looked up from cleaning a mug. "You look like you’ve had a long day. What can I do for you?"
+
++ "I need a room for the night." 
+    -> room_requestA3
+
+=== room_requestA3 ===
+"Rooms are three silver pieces for the night," the barkeep said gruffly, eyeing me up and down. "You got the coin?"
+
++ "I have the coin." 
+    -> pay_for_roomA3
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+=== pay_for_roomA3 ===
+I handed over the gold coin Seline had given me and took the key and change the barkeep offered me. "Room three, up the stairs." He nodded.
+
+I made my way up to the room, which was simple but comfortable enough. A bed, a small table, and a window overlooking the street. I placed Jonji on the bed and settled in, exhaustion overtaking me.
+
+Later that night:
+
+The bed was soft enough, and sleep came quickly. But when I awoke in the morning, something was terribly wrong. Jonji lay motionless on the bed. I rushed over to him, only to find that his body had completely turned to stone. Panic rose in my throat. What had happened?
+
+My mind immediately went to Wyrmgate. It was the only place I could think of where I might find answers about Jonji and my father.
+
+I had no other choice but to go there.
+
+-> wyrmgateA3
+
+=== wyrmgateA3 ===
+The journey to Wyrmgate was less than a day's walk, and when I finally arrived, I stood before the towering gates of the legendary school. It was more magnificent than I'd ever imagined. The spires reached high into the sky, covered in ivy and ancient carvings that seemed to whisper of a long history.
+
+I approached the gate, feeling both awe and anxiety stirring in my chest. The guards at the entrance looked at me curiously.
+
+"You there," one called out. "State your business."
+
++ "I’m Darrow Grimborne. I’ve come looking for my father, Ezekiel Grimborne." 
+    -> wyrmgate_guardA3
++ "I’m looking for answers about an artifact." 
+    -> wyrmgate_guard_artifactA3
++ "I need help my pet dragon has turned to stone."
+    -> stone_jonjiA3
+
+=== stone_jonjiA3 ===
+"Yeah and my pockets just got filled with gold." said the guard as he let out a hearty laugh.
+
++ "I’m Darrow Grimborne. I’ve come looking for my father, Ezekiel Grimborne." 
+    -> wyrmgate_guardA3
++ {not wyrmgate_guard_artifactA3}"I’m looking for answers about an artifact." 
+    -> wyrmgate_guard_artifactA3
+
+=== wyrmgate_guard_artifactA3 ===
+"So. I'm a guard why are you asking me about such nonsense?" said the gaurd with a slight annoyance in his voice.
+
++ "I’m Darrow Grimborne. I’ve come looking for my father, Ezekiel Grimborne." 
+    -> wyrmgate_guardA3
++ {not stone_jonjiA3}"I need help my pet dragon has turned to stone."
+    -> stone_jonjiA3
+
+=== wyrmgate_guardA3 ===
+The guard’s eyes widened at the mention of my father’s name. "Ezekiel Grimborne, you say?" His voice lowered, a mix of respect and curiosity. "You’re his son, then. Come on in."
+
+Without further delay, I was escorted through the gates. This was my chance—answers about Jonji, and possibly about my father, awaited inside.
+
+-> END
+
+
+
     
     
