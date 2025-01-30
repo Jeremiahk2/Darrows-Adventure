@@ -868,21 +868,83 @@ I replied, shocked. "Of course! Yes he was conducting some research for me, you 
     "Yes. He didn't bring it with him." I said, shifting slightly to one side. The queen looked at me. "Well, then that means he entrusted the artifact to you. I knew your father well, and I'm certain he must have had a reason for that. Therefore... I feel as though our best chance at uncovering it's secrets lies with you. So, as queen, I will allow you to decide what happens to this artifact... Jonji." she said, looking sidelong at Girstone, then flicking her eyes back to me. "But I highly suggest that you make this decision only after careful consideration. If you'd have me, I can share my advice." she said, waiting for my response.
     
     + [Ask for her advice] -> advice
-    + [Keep the artifact for yourself. You can't trust either of them. You'll figure out what happened on your own.]
-    + [Give the artifact to Girstone. He has the best chance of fixing Jonji.]
-    + [Give the artifact to Queen Katrina.. She may be slightly insane, but she doesn't seem evil.]
+    + [Keep the artifact for yourself. You can't trust either of them. You'll figure out what happened on your own.] ->keepArtifact
+    + [Give the artifact to Girstone. He has the best chance of fixing Jonji.] ->giveGirstone
+    + [Give the artifact to Queen Katrina.. She may be slightly insane, but she doesn't seem evil.] ->giveKatrina
     
 === advice ===
     "I see. Well..." She flicked her eyes from Girstone to me "It's fairly simple. Before you got here, we were deciding what to do with the artifacts here. On the one hand, as they are now, they can be useful in advancing my kingdom. We've managed to use a handful of them as energy sources and weapons." She said, lifting her gold orb again. "Having said that, there is a slim chance that they can be researched, potentially making something... Different. That is what Girstone would like to do." she said, gesturing with her orb at Girstone.
     "Alternatively, as Ezekiel's blood relative, you could decide that the artifact belongs to you, and that you should use it as you see fit." She said. With this, both of them looked at me, their expressions unkind. Having said that, they did look different. Girstone was eyeing my knife, but Katrina was looking me directly in the eyes.
     W"hile I may be biased, I think you should give the artifact to me of course. I would use it for the benefit of myself and the kingdom. I've been no stranger to using magic in a more... Utilitarian way as you might have seen at night. And with the neighboring kingdom constantly on our borders, it could save many lives." she said earnestly.
-    At this, Girstone spoke up. "I, on the other hand, will use it to advance science and mankind. Which is why I originally asked your father to hand it over. And now, I suggest you do as your father was going to do before he was interrupted. It's what he would have wanted after all." Girstone said, smiling innocently. "We had many plans, your father and I."
-    + [Keep the artifact for yourself. You can't trust either of them. You'll figure out what happened on your own.]
-    + [Give the artifact to Girstone. He has the best chance of fixing Jonji.]
-    + [Give the artifact to Queen Katrina.. She may be slightly insane, but she doesn't seem evil.]
+    At this, Girstone spoke up. "I, on the other hand, will use it to advance science and mankind. Which is why I originally asked your father to hand it over. And now, I suggest you do as your father was going to do before he was interrupted. It's what he would have wanted after all." Girstone said, smiling innocently. "We had many plans, your father and I." he finished.
+    + [Keep the artifact for myself. I can't trust either of them. And I still need to fix Jonji and find father.] ->keepArtifact
+    + [Give the artifact to Girstone. He has the best chance of fixing Jonji.] ->giveGirstone
+    + [Give the artifact to Queen Katrina.. She seems to care about the kingdom, even if she's somewhat scary.] ->giveKatrina
     
     
-    
+=== keepArtifact ===
+"I'm going to keep it. I still need to find my father and revive Jonji. I'm not ready to part with it yet." I said defiantly, watching them carefully.
+To my surprise, they didn't do anything. They simply watched each other, as if locked in stalemate. It was clear they both wanted to do something, but they were too worried about the other to act. They were more stuck than I was. Finally, Girstone broke the tension. "That'll be fine. We don't want such a powerful artifact falling into the wrong hands... Do we?" he said, smiling at me. Queen Katrina responded, smiling as well. "Of course not. That would be dreadful. Make sure to take good care of it, Darrow. And do let us know if you find your father. I'd be... Very interested to find out what happened to him." She said, smiling not at me, but at Girstone, who sneered at her, before leaving.
+Queen Katrina watched him go, smiled at me, and then left.
+
+In pure shock, I left Wyrmgate with Jonji, and with my main threats dealt with. Now... I was free to pursue my own goals. Namely, reviving Jonji and finding my father. Perhaps I would travel and look for him, or look for people who could help me learn more about magic.
+{seline_houseA3: Perhaps I could ask Seline for help... She seemed more than willing, and I need an ally.}
+Only time will tell.
+DARROW ENDED
+-> END
+=== giveGirstone ===
+"Here" I said, handing the artifact to Girstone. "If you think it's what my father would have wanted this, then let's do it. We need to figure out what happened, and the first step is reviving Jonji." I said. Girstone happily accepted the artifact, while Queen Katrina looked on in disgust. "Indeed! We can get started immediately! First, we'll cut into the creature to ensure that cellular growth has continued." he said calmly. "WHAT? We can't do that!" I exclaimed.
+The old man frowned, turning around to face me. "Are you going to be like your father or are you finally going to do what needs to be done?" He asked, with more than a little animosity.
+"What do you mean by that? Did my father not approve of your research methods?" I asked. After some consideration, he responded. "He approved of my results. The world has never been a safer place. If a few statues have to get shattered that's not my issue. But I believe using this artifact will lead to the betterment of the world! We could use it to arm our military with magical weapons! We could use it to scare our enemies into surrendering peacefully!" he said, becoming more emphatic, stealing glances at Queen Katrina.
++ "No. I gave it to you under the idea that you would revive Jonji." -> refusalEnding
++ "...For the good of the world? Jonji could be used for something like that?" -> greaterGoodEnding
+
+=== greaterGoodEnding ===
+I asked. "Of course! My research confirms it! And, possibly, we could use this research to save other sentient artifacts from the same fate... Don't you want that, Darrow?" he said, leaning in closer.
++ "I... I do... It's what Jonji would have wanted." ->greaterGoodContinued
++ "No. My father didn't trust you, and now I see why." ->refusalEnding
+=== greaterGoodContinued ===
+I replied. Girstone broke into a big smile. "Excellent! You shall surpass your father as my apprentice!" He said, before correcting himself. "At least until he can be found. Anyway, let's continue. We have much work to do." he said earnestly, looking at the Queen. "Your Majesty, you can see yourself out. I wouldn't want you to get hurt, after all. We can handle things from here."
+Heaving a sigh, Queen Katrina gave me a glare. "I had higher hopes for you." She said, before leaving the room.
+
+True to his word, Girstone did end up using Jonji to great success. His research allowed us to create magical weapons that deterred the ongoing invasions of the kingdom's land. Unfortunately, we were not able to revive Jonji, nor any more sentient statues. But, by sacrificing the few, we protected the many. Queen Katrina, while she approved of our results, was quite angry at our methods, especially since it continued to solidify Wyrmgate and Girstone as a dominant faction in her kingdom.
+DARROW ENDED
+-> END
+=== refusalEnding ===
+Girstone shook his head. I noticed in this moment that Queen Katrina backed up, clutching the gold orb. 
+"That's quite unfortunate. I had hoped you wouldn't take after your father this way. Oh well..." He trailed off, grasping at something beneath the table.
+{postbattleA4: 
+Queen Katrina and I both stepped forward, me wielding my trusty hunting knife, and her wielding her magical golden orb. Girstone grunted in annoyance, and pulled out a statue, this one made of silver, almost identical to Jonji. He went to raise it up, but I rushed forward. He pointed it at me, and it began to emit a bright white light, as well as a loud, monstrous noise. I braced myself for the end to come...
+Instead, the noise halted immediately, replaced by the words. "Quiet down."
+Looking up, I saw that the statue that Girstone was holding disappeared. Queen Katrina was putting her orb away. She spoke softly. "Guard, please escort Girstone to a cell." she said, and the guard, who had been waiting outside since my two assailants had been dealt with, came in and grabbed Girstone, who screamed. "YOU DESTROYED IT? YOU FOOL! YOU HAVE NO IDEA HOW LONG I SEARCHED FOR THAT!" echoed from his mouth as he was escorted down the hallway, presumably to some cell in the city.
+When his words faded away down the hallway, Queen Katrina spoke. "Thank you for standing with me. It's been some time since that's happened. As you can see, my advisor didn't have the best of intentions, and sometimes it really got to me. If he hadn't been distracted by you, I don't know what would have happened. It's not good for two magical artifacts to clash like that. We lost a valuable tool today." she said, looking down at the floor.
+I didn't really know what to say. This was not what I expected from her, or from Girstone. It's clear they have their own motivations, but it's a shame they couldn't get along. To think I almost died because of it.
+"If you'd like, you are free to continue your father's research in Girstone's stead. You may aid me and the kingdom if you like, or pursue your own goals. This laboratory is rightfully yours." she said, walking towards the exit. Before she left, I called out.
++ "Wait. Thank you, Your Majesty." -> wait
++ "Wait. Don't think I forgive you!" -> wait
++ "Wait! What will happen to Girstone?" -> wait
+}
+{ not postbattleA4: 
+I stepped back as Queen Katrina stepped forward, holding her magical golden orb in her hand. Girstone grinned and pulled out a statue, this one made of silver, which looked almost identical to Jonji. He raised it up as well, and it began to emanate a bright light, as well as a loud, monstrous noise. It filled the room, blinding me. I held up my knife in defense, but it was little use. The light enveloped Queen Katrina first, and began to approach me.
+But, before it could reach me, it disappeared instantly, as if it never existed. Opening my eyes, I looked in astonishment at what I saw. The room had a large hole in it, and both the statue of Jonji, the silver statue, and the Queen's golden orb were gone, as were the queen herself and Girstone, as if they had simply disappeared from the world.
+I stayed there for some time, I'm not sure how long. At some point, I was taken away to a cell. A short while after that, I was accused of killing the Queen and her advisor. And a short while after that, my head was rolling across a floor.
+DARROW... ENDED
+-> END
+}
+
+=== wait ===
+I said at the departing woman. She turned, adjusted her tiara, and smiled sadly. Without another word, she left. 
+After her departure, I spent some time looking around my father's office. I didn't quite understand everything, but I was determined to learn. I still needed to figure out what he was thinking about doing with Jonji. If he didn't take him to Girstone, he must have had other intentions.
+{seline_houseA3: Also, Seline could be helpful. I should contact her.}
+From that moment on, I continued to learn at Wyrmgate. I was determined to figure out what happened to my father, and what happened to Jonji. True to her word, Queen Katrina ensured that I wasn't bothered, and even provided the occasional bit of funding I needed. As my research continued, I found more ethical ways to use artifacts, which improved the overall happiness of the common people of the kingdom.
+DARROW ENDED
+-> END
+=== giveKatrina ===
+    "Here. As long as you'll use him for the good of the kingdom... I think that's what he wanted. He seemed really happy to be here, even if it was only for one night." I said, handing Jonji to Queen Katrina, who accepted it gratefully. "You made the right choice, young Darrow. I'll make sure it's put to good use. You can be sure of that." she said, turning to Girstone. "And don't worry, I will make sure Jonji is treated humanely. Perhaps one day we can revert him to his original form." she finished, her eyes never leaving Girstone, at least not until he stormed out of the room.
+    Once he was gone, she turned back to me. "Now then, I shall reward you. You've exceeded my expectations. You may have any position you like in my court, and I will help you search for your father. I'm very interested in finding him. I think he will be very... Illuminating." She said with a knowing smile.
+    So, I continued to work with Queen Katherine. As recompense for my destroyed house, she offered me a rather large estate, which I accepted. She began putting Jonji to use, harnessing the magic inside of him to power cities and aid manufacturing, which I was happy to see. Still, she also used him to grow her own power, putting a little bit of it into her golden orb every day. I was fairly hopeful it was just paranoia. After all, Girstone was still around, and seemed to hold a grudge against the queen. Regardless, I couldn't care less about their political infighting. As long as I had a route to finding my father, which the Queen seemed determined to do.
+    DARROW ENDED
+    -> END
     
     
     
