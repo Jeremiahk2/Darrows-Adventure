@@ -738,9 +738,106 @@ The guard’s eyes widened at the mention of my father’s name. "Ezekiel Grimbo
 
 Without further delay, I was escorted through the gates. This was my chance—answers about Jonji, and possibly about my father, awaited inside.
 
--> END
+-> introA4
 
+=== introA4 ===
+Wyrmgate, for it's part, was very impressive. Granted, I was taken through it quite quickly. The exterior gardens were beautiful, and occasionally I would see students coming and going, talking to each other about things I could not comprehend. Magic, I supposed.
+Eventually, we actually entered a building. It was a large, towering building with a large clock at the top. I assumed it was so that students wouldn't be late to class. Regardless, the interior of the building was pretty as well. Marble floors shiny enough to see myself in, pillars of stone, and wide arches. The guard quickly took me down one of the hallways, his pace quickening slightly. We passed by where most of the classrooms were and into a different wing of the building. Rather than classrooms, this part of the building was filled with laboratories and offices.
+At last, the guard stopped at a large door. To my surprise, there was a plaque in the door labeled "Ezekiel Grimborne". My father's laboratory? From the other side, I could hear the faint sound of voices.
++ [Go inside] -> dadLabA4
 
+=== dadLabA4 ===
+As I approached the door, the guard opened it for me, walking inside. I followed him, and what I saw shocked me to my core.
+Inside, there were various things one might expect to be in a laboratory. Tables, various scientific instruments, shelves full of materials and papers, chalkboards, and so on. That was all within my expectations. What surprised me was the table at the center of the room, what was on it, and the people that surrounded it.
+On the table were several artifacts. To most people, this would also be expected. Except that I recognized these artifacts. They were the same stone statues I remembered seeing on my father's desk yesterday morning. Looking around the room, I realized how they got them. I recognized two of them. They were the same bastards who broke into my house and turned my world upside down. As soon as I saw them, I gripped my hunting knife tightly. I won't make the same mistake twice.
+However, what stopped me were the other people at the table. One of them was an old man with gray, bedraggled hair, wearing a fancy sky-blue rube and a pointed hat. He was examining one of the artifacts with disinterest. The second person was a young, regal woman. She wore a fancy white and gold dress, with a gold tiara on her head. She looked over at me with interest when I entered.
++ [Attack the two from your home]
++ "W-What's going on here? Why do you have my dad's artifacts?"
++ [Run] -> runA4
++ [Stand there silently] -> standSilentlyA4
 
+=== attackA4 ===
+
+=== runA4 ===
+Seeing this crowd, I knew I was in a bad situation. I bolted out the door and down the hallway. Behind me, in the room, I heard the young woman sigh. "Go get him." she said. Within moments, my pursuers were on me. I'd outrun them before, but I was in my home turf in the forest. There was a window all the way down the hallway. I might make it if I were to sprint and bust through it.
++ [Full Speed!] -> fullSpeedA4
+
+=== fullSpeedA4 ===
+I turned on the afterburners, running as fast as I could down the hallway. The window was within reach. I finally made it, jumping right at it.
+And then hit it, bouncing off, the wind completely knocked out of me. I fell on the floor in a daze, and heard the familiar sound of my pursuers snide voice. "You know, in a magic academy, it's important for our school to be durable in case our magic were to malfunction. Come here kid." He said, picking me up and dragging me back to my father's laboratory. When I fell, I dropped Jonji, so the other one picked it up and brought it too. -> END
+
+=== standSilentlyA4 ===
+I stood there, frozen in confusion. The old man in the robe put down the looking glass he was using to examine the artifact. He looked up at me, and then to the woman, who spoke. "You're quite calm for one so young. Thank you for not running. I hate wasting time. We've been expecting you, so please have a seat."
+Before I could respond, the guard who brought me here shoved a chair under me, forcing me to sit down. As I did, the old man and the woman walked over to me.
+"So you are Darrow. Ezekiel's... Son. And the one who gave Mustave and Shin so much trouble." She said, looking down at me. "Well, not to worry. You're here now. Before we... Discuss the situation, I suppose introductions are in order." She said, smiling. "My name is Katrina. I am the Queen of this kingdom. Those two there are Mustave and Shin, though you are already acquainted. And this is my royal advisor, Girstone, who also happens to be the headmaster here at Wyrmgate." She said calmly, gesturing at the old man.
+The old man stepped forward, looking me up and down, before breaking into a wide smile. "So! You are the notorious son of Ezekiel Grimborne. Well, that's quite something indeed! I must speak with you as soon as Her Majesty allows. We have much to discuss! Yes! I'm particularly interested in this creation you've brought here." He said, gesturing at Jonji. 
+{hoboconvoA2: The way he spoke was oddly familiar to me. Like that man I met in the forest. Because of the darkness, I hadn't gotten a good look at him, but his voice and mannerisms were unmistakable.}
++ "...Discuss?" -> mageconvo1
++ "What do you want with Jonji?" -> mageconvo2
++ "Did you know my father?" -> mageconvo3
+* {hoboconvoA2} "You're that man from the forest!" -> mageconvo4
+
+=== mageconvo1 ===
+I replied, wondering what it was he was after. "Oh yes indeed! We have quite a lot to discuss. I was quite enamored with your father's research, you see. I was particularly invested in his research into magical artifacts, like the ones you see here, and the one you carry with you." ->jonjiArtifactA4
+=== mageconvo2 ===
+I replied angrily. Girstone looked confused. "Jonji? Who is Jonji? Have you named this artifact that? Quite an odd young man this is..." he muttered, looking at Jonji in befuddlement. -> jonjiArtifactA4
+=== mageconvo3 ===
+I replied, shocked. "Of course! Yes he was conducting some research for me, you see. I was very interested in his work on magical artifacts." he replied excitedly. "And now that you're here with his final artifact, I can finally resume my research." he said contentedly -> jonjiArtifactA4
+=== mageconvo4
+    I exclaimed. Girstone looked down, embarrassed. "Yes... Truth be told, I was quite excited to hear from your father, so I stayed on the path he usually takes, hoping to find out more. When I realized you must be his child, I decided to give you some information, and to guide you here. I saw that you were hiding something, and now I know it was this artifact!" he exclaimed, looking at the statue of Jonji. -> jonjiArtifactA4
+=== jonjiArtifactA4
+    I turned to look at the statue of Jonji. "Jonji... Is an artifact?" I asked, shocked. Girstone looked at me like he thought I was crazy. "Why do you refer to this artifact like it's a real creature? Ezekiel said it was important, but it's odd that you're so attached to it." he said, scratching his head.
+    "It's not an artifact! It's Jonji! He turned to stone somehow. I came here in part to figure out how to undo it!" I screamed. 
+    Girstone was about to reply, but Queen Katrina cleared her throat, causing him to fall silent. "It seems there is a misunderstanding. Your father merely told us that he had a breakthrough in his research, the kind that would lead to limitless power, and that his most recent artifact was the reason." she said softly. "If what you say is true, he managed to find a sentient artifact, but due to your negligence, it has reverted to stone." she said, her calm demeanor disappearing. She looked down at me with a cold, quiet anger, as her hand went to a small pocket in her dress.
+    + "W-Wait! It wasn't me! He started changing to stone when your goons attacked!"
+    " [Draw your knife] -> drawKnifeA4
+
+=== drawKnifeA4 ===
+    I drew my knife, ready to defend myself. Rather than a weapon, Queen Katrina pulled a small, gold orb out of the folds of her dress. Caught off guard, I waited to see what she would do. Is she going to throw it at me? No, instead, it began to glow, before a blast of light emanated from it, momentarily blinding me. When I opened my eyes, I realized that the knife was no longer in my hand. In fact, when I held my hand up to my face, I saw that my hand, in fact both my hands, were missing.
+    In fact, I felt a lot shorter. Looking down, I saw that my feet were missing, and I was sitting on the stumps where my shins used to be. I started to scream as I looked up at the Queen. Before I could continue, she pressed the gold orb to my forehead. "Quiet down." she said, before everything went black.
+    DARROW DIED. ->END
+=== shaggyA4 ===
+    I said quickly, pointing at the two men, Mustave and Shin. The Queen's head snapped to the side, looking at the two men. They looked scared, and began to plead. "I-It wasn't us!" Gustave said. "The stupid lizard attacked us, so we cut it!" finished Shin. "It wasn't our-" Mustave began again, but the Queen cut him off.
+    "Silence" she said. "My orders were to capture the artifact and the boy, alive and unharmed. Seeing as he saw fit to run from you, and the fact that the prized artifact that his father spent decades trying to find has been possibly irreparably damaged... I can conclude that the two of you are to blame. Therefore..." She said, taking out a small golden orb from the folds of her dress.
+    At the sight of this, the two men got on their knees and began to plead. "We'll never make that mistake again! Please! We'll be good! Please don't use that!" they screamed, as the Queen walked closer to them, smiling. She leaned forward and tapped Mustave on the head with the forehead. "Quiet down." she said. With this, Mustave's body seemed to shrink into itself, before completely disappearing without a trace. She then turned to Shin, who looked at her in horror.
+    "I suggest you not displease me again. Dismissed." She said. Before she could even finished, Shin was bolting down the hallway, leaving only the three of us and the guard in the room.
+    + "You... Killed him?" -> queenconvo1
+    + "How could you do that?" -> queenconvo1
+    
+    
+=== queenconvo1 ===
+    She looked over at me, her calm demeanor returning. "Sometimes, Queens have to make difficult decisions for the good of her people. Isn't that right, Girstone?" she said, looking at Girstone, who was quietly examining Jonji from every angle. At his name, he perked up. "What? Oh yes, tough decisions." he said, before getting back to his examination. The queen sighed, and addressed me.
+    "Darrow, son of Ezekiel. I apologies for any unpleasantness you've experienced. The truth is, I wanted you to be brought here peacefully. You see, we were all quite worried about your father, and knew that if he had been attacked by someone, they could be coming after you. My kingdom has many enemies, both inside and out. Therefore, we needed to protect both you and his research."
+    
+    + "Then where is my father?" -> queenconvo2
+    + "Next time, just send a letter. Or better yet, come yourself." -> queenconvo3
+    
+=== queenconvo2 ===
+    The Queen hesitated for the first time since I came in the room. She looked sad for a moment. Girstone put down Jonji and spoke. "We don't know where your father is. He was supposed to arrive here some time ago with... Jonji as you call it. But he never arrived... We thought you might have some idea of where he was." he said, looking directly at me. -> dadconvo1
+=== queenconvo3 ===
+    Queen Katrina chuckled slightly. "Perhaps. Though we did need someone to remain here if your father were to return. And a letter could have been intercepted. The truth is, we don't know where your father is. We suspect has was taken by our enemies because of his knowledge of magic. We warned him that continuing to travel to and from the capital to his house in the forest was dangerous, but he insisted." she said sadly. "Do you know where your father is?" she asked sincerely. -> dadconvo1
+    
+=== dadconvo1 ===
+    "... I don't know where he is" I replied, shaking my head. "I came here hoping to find answers."
+    The queen walked to Girstone, examining Jonji. "I see. That's a shame. But, it's what I expected. However, we do have an opportunity here. With this artifact, we may be able to uncover the nature of his disappearance. You did say he left the house without this artifact, yes?" she asked.
+    "Yes. He didn't bring it with him." I said, shifting slightly to one side. The queen looked at me. "Well, then that means he entrusted the artifact to you. I knew your father well, and I'm certain he must have had a reason for that. Therefore... I feel as though our best chance at uncovering it's secrets lies with you. So, as queen, I will allow you to decide what happens to this artifact... Jonji." she said, looking sidelong at Girstone, then flicking her eyes back to me. "But I highly suggest that you make this decision only after careful consideration. If you'd have me, I can share my advice." she said, waiting for my response.
+    + [Ask for her advice]
+    + [Keep the artifact for yourself. You can't trust either of them. You'll figure out what happened on your own.]
+    + [Give the artifact to Girstone. He has the best chance of fixing Jonji.]
+    + [Give the artifact to Queen Katrina.. She may be slightly insane, but she doesn't seem evil.]
+    + [Ask what their intentions are.]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
