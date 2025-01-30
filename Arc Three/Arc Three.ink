@@ -174,8 +174,172 @@ Her expression flickered slightly at the name, but she said nothing for a moment
     -> manageA3
 
 === seline_houseA3 ===
-Darrow ends up staying with Seline. This leads to some more dialogue with Seline. A bit of backstory. She used to study at Wyrmgate before she was expelled due to a faulty expirament with an Artifact. regardless of where Darrow sleeps he will awaken to find Jonji has turned to stone while sleeping. This can mostly be though of as filler to expand upon Selines character in the even we want to use her in future game. I will finish all the detailed dialogue/routes for this by Wednesday 1/29. Still need time to flesh out backstory.
--> wyrmgateA3
+I followed Seline up a rusted staircase, the steps creaking under our weight as we ascended to the third floor of the apartment building. When we reached the second door, she made a swift, fluid motion with her hand. A soft blue light flickered, and I heard a faint click as the doorknob unlocked. Without hesitation, she pushed the door open and gestured for me to follow.
+
+The apartment was small but cozy, with an air of careful organization. The front door opened directly into a modest living room, a small kitchen tucked to the left, and a half-open door on the right that likely led to her bedroom. Despite its size, the place felt lived-in—comfortably so.
+
+"Alright, you and Jonji can sleep here for the night," she said, waving toward the worn but serviceable couch that sat in front of the lit fireplace. As I looked down at the injured dragon in my arms, I saw that he had fallen asleep, his tiny body warm against me. I gently tucked him onto the couch, grateful for the offer.
+
+"Thanks for letting us crash here," I said, taking a moment to meet her gaze, my voice filled with quiet gratitude.
+
+Seline waved off my thanks with a casual flick of her hand. "Don’t mention it. I’m used to taking in strays." She paused, glancing at me with an almost calculating look. "So, what brings you to the capital?"
+
+She settled beside me on the couch, the worn cushions sinking under her weight. The fireplace crackled softly, adding a warmth to the room that was almost at odds with the tension in the air. She studied me carefully, waiting for my answer.
+
++ [Tell her the full story] 
+    -> story_recapA3
++ "I'm trying to find my dad." 
+    -> find_dadA3
++ [Tell her you aren't comfortable talking about it.] 
+    -> hide_storyA3
+
+=== story_recapA3 ===
+I sighed, leaning back slightly against the couch, gathering my thoughts before I spoke. It wasn’t easy to talk about everything that had happened, but Seline had been nothing but patient, and I figured she deserved to know the whole story.
+
+"Well, I woke up this morning like it was just another normal day. I was having breakfast when two men showed up at my door. They were... demanding to know where my dad was," I started, my voice steady but still carrying the weight of the memory. "They didn’t say much at first, just that they needed to find him. Eventually they forced themselves into the house."
+
+I paused, the image of the two strangers flashing in my mind. They were so cold, so relentless. "They trashed the place when I told them I didn’t know where he was. And it wasn’t just about finding him, they were searching for something, too. I don’t know what it was, but it was obvious they were after one of his artifacts. I’m guessing it’s something he’s been studying for a while. Maybe even something... dangerous."
+
+The weight of what they’d done—the destruction, the violence—still lingered in my chest, but I pushed it aside. "I managed to get away from them, and after everything that happened, I figured coming here was my best shot. I mean, if anyone knows where he is or what he’s been involved with, it’s probably Wyrmgate."
+
+I glanced down at Jonji, still curled up on the couch, and then back at Seline. "So, that’s the gist of it. It all feels like one big mess, but I’m hoping I’ll get some answers here."
+
++ "So what about you? Whats your story?" 
+    -> seline_pastA3
++ "I was wondering... do you know anywhere I can go to help with Jonji's wound?" 
+    -> jonji_helpA3
++ "What was that thing you did with your hand to unlock the door?" 
+    -> door_magicA3
+
+=== hide_storyA3 ===
+I hesitated, glancing at Seline before replying. "To tell you the truth, I’m not really comfortable talking about it with someone I just met." I immediately felt a twinge of guilt for being so closed off, especially after she’d been so kind and welcoming. But as I spoke, I caught the brief shift in her expression—a flash of disappointment that I couldn't quite ignore. The sharpness of it made me feel like I’d let her down, despite not really knowing her at all.
+
+Seline’s face softened after a beat, though, and she let out a light laugh, quickly covering up any lingering tension. “Gosh, you really are secretive, huh?” Her voice had a playful, teasing edge now, as though trying to brush off the awkward moment. "Come on, there’s got to be something you can tell me."
+
+I ran a hand through my hair, feeling the weight of her expectations. She’d done more than enough for me, and it seemed only fair I shared something. I took a deep breath. "Well, the truth is... I don’t really know why I’m here. I woke up this morning like any other day, then these two guys showed up at my house, looking for my dad. They trashed the place, and—" I glanced at Jonji, still curled up on the couch, "—they’re the reason Jonji got hurt. After I got away, I thought it would be best to head here, thinking maybe this is where Dad is now."
+
+Seline’s brows furrowed, and she gave me a long, thoughtful look. “That’s quite a mess, huh?” she said, a wry grin tugging at her lips. “Guess it makes sense why you’re so cautious. Can’t trust anyone with a story like that.”
+
+I gave a half-smile, grateful for her understanding, even if it still felt strange to explain any of it. The silence that followed lingered for a moment before I decided to ask her something. I needed to know more about her, too.
+
++ "So what about you? Whats your story?" 
+    -> seline_pastA3
++ "I was wondering... do you know anywhere I can go to help with Jonji's wound?" 
+    -> jonji_helpA3
++ "What was that thing you did with your hand to unlock the door?" 
+    -> door_magicA3
+
+=== find_dadA3 ===
+I took a deep breath before speaking, my words coming out slower than I intended. "I’m here to find my dad. His name’s Ezekiel Grimborne." The name felt heavy on my tongue, like I was putting a piece of my past on display for the first time in a long while.
+
+Seline nodded, watching me intently as I continued. "He’s a scholar, but not the kind of scholar most people think of. He works with magic artifacts, researches them, studies them, even makes a few himself. I never really understood most of it, but I know it was important to him." I paused, rubbing the back of my neck. "Anyway, this morning, two men showed up at our house. They were looking for him. They trashed the place when they couldn’t find him, and…" I glanced at Jonji, then back to Seline. "They’re the reason Jonji’s hurt. After everything went down, I figured Wyrmgate might be my best bet. My dad used to work there, you know?"
+
+I hesitated, letting the words sink in, but before I could continue, Seline cut in with a sharp look of recognition.
+
+{ darrow_introA3:
+    "Wait, hold on," she interrupted, her eyes narrowing slightly as if piecing something together. "Didn’t you mention Ezekiel Grimborne earlier? I remember now—he was kind of a big deal at Wyrmgate, wasn’t he? I think I’ve heard his name before. He was known for his work with artifacts, wasn’t he?"
+}
+{ not darrow_introA3:
+    "Hold on," she interrupted, her eyes narrowing slightly as she seemed to be piecing things together in her mind. "I've heard that name before. he was kind of a big deal at Wyrmgate, wasn’t he? He was known for his work with artifacts."
+}
+
+Her tone was thoughtful, almost like she was recalling something from the past. "I don’t know all the details, but he had a reputation. People there spoke about him like he was... well, important."
+    
+I blinked, surprised by her response. "You’ve heard of him?"
+    
+Seline gave a small shrug, a hint of a smile tugging at the corner of her mouth. "Yeah. It’s hard not to when someone’s as well-known as him. I didn’t exactly know him personally, but I remember him making waves at Wyrmgate." She leaned back against the couch, her expression a little distant. "So, if you’re looking for him, Wyrmgate seems like the right place to start. They’d know more about where he went or if he’s still around."
+    
+Her words felt like a small beacon of hope. Maybe this wasn’t all for nothing.
+
++ "So what about you? Whats your story?" 
+    -> seline_pastA3
++ "I was wondering... do you know anywhere I can go to help with Jonji's wound?" 
+    -> jonji_helpA3
++ "What was that thing you did with your hand to unlock the door?" 
+    -> door_magicA3
+
+-> seline_morningA3
+
+=== seline_pastA3 ===
+Seline leaned back on the couch, folding her arms loosely, her eyes distant for a moment. I could tell the question had caught her off guard, but after a beat, she exhaled, looking at me like she was trying to decide how much to reveal.
+
+"Well, it’s not all that exciting," she started with a small shrug. "I grew up in an orphanage. Never knew my parents, don’t even know if they’re still alive or anything. Spent most of my childhood just trying to fit in. But when I was 12, Wyrmgate took me in. They saw some potential in me, I guess. Said they wanted to teach me magic. The whole thing was kinda unheard of, was definitely not a common thing for Wyrmgate to take in orphans. Suppose I got lucky."
+
+She looked down at her hands, picking at a loose thread on her sleeve. "I spent nine years there. Nine years studying, learning, making friends. It felt like I was finally on a path, you know? Like I had a purpose." She paused, her expression tightening slightly. "But then, two years ago, they kicked me out. Said I’d caused an accident—an experiment gone wrong. It was really..."
+
+Her voice dropped a little, almost like she was speaking to herself now, lost in the memory. "The experiment... it's just a story best left in the past." Her tone was firm, almost sharp, as if the subject was closed, but I could see a flicker of something behind her eyes. A mix of regret and frustration.
+
+She shifted uncomfortably, breaking the moment of silence. "Anyway, that was two years ago. Since then, I’ve been living here. I work at the café down the street, serving coffee and food to anyone who’s willing to pay for it. Not exactly glamorous, but it’s honest work, and it helps keep a roof over my head." She managed a faint smile, though it didn’t reach her eyes. "And it’s not all bad. The café’s got a decent crowd, and I’ve met a few good people. Not a bad way to live, all things considered."
+
+Seline peered into the flames of the now dim fire as she finished her story. "Well it seems to be getting pretty late. Think I'm gonna go lay down. Let me know if you need anything."
+
++ "Will do." 
+    -> seline_morningA3
+
+=== jonji_helpA3 ===
+Seline glanced at Jonji, still curled up on the couch, and then back at me with a thoughtful look. "Wyrmgate’s probably your best bet for finding anything about dragons," she said, her tone firm. "They’ve got the resources and knowledge. If there’s anyone who can help him, it’s them."
+
+She gave a small nod, as if confirming her own words. "It’s not far, but it’s quite the walk since it’s deep in the capital. You should head there in the morning when you’re rested."
+
++ "Alright, well should probably get to sleep then." [(Go to sleep)]
+    -> seline_morningA3
+
+-> seline_morningA3
+
+=== door_magicA3 ===
+Seline looked at me with a small, almost amused smile when I asked about the magic she used to unlock the door. "It’s a trick I learned when I was studying at Wyrmgate," she said casually, as if it was no big deal. "We practiced a lot of small, practical magic like that—little cantrips to make life easier. I’m not really a powerhouse like some, but it’s enough to get by."
+
+I raised an eyebrow. "That’s pretty impressive. I mean, most people can’t do any magic at all."
+
+Seline shrugged, clearly unimpressed with her own skills. "Eh, it’s nothing special. Just a little something I picked up. Anyways I'm kinda tired so think I'll head to bed now. See you in the morning." said the girl as she hopped up and headed towards her room.
+
++ "Alright." 
+    -> seline_morningA3
+
+=== seline_morningA3 ===
+I woke up to the quiet sound of the apartment, the soft light of the morning filtering through the window. As I sat up, I immediately glanced at Jonji, who had been curled up on the couch next to me.
+
+My heart skipped a beat when I saw him. The little dragon was no longer his usual, soft, scaly self. His body had turned to stone, frozen in an eerie, lifelike pose, his eyes wide and unblinking.
+
+Panic surged through me. What happened?
+
+I rushed over, touching him gently, hoping it was some kind of mistake, but his stone-like surface felt cold and solid.
+
+I stood up quickly, my mind racing. I couldn’t stay here. Wyrmgate was the only place that could help—if anyone knew what was going on with Jonji, it had to be them.
+
+I grabbed my things, shaking my head to clear my thoughts. No time to waste.
+
+Just as I was about to leave, I heard a rustling from the bedroom. Seline emerged, her expression immediately shifting from sleepiness to concern when she saw me.
+
+"Is everything okay?" she asked, her eyes flicking between me and Jonji.
+
+"I need to get to Wyrmgate. Something’s happened to Jonji," I explained quickly. "I’ll figure out the rest later."
+
+She nodded, understanding without needing any more details. "I hope you find what you’re looking for. Take care of yourself, alright?"
+
+{ not seline_pastA3:
+    I hesitated for a moment, then gave her a brief nod before heading for the door. As I reached the threshold, she called out, her voice softer than before.
+
+    "Good luck."
+}
+{ seline_pastA3:
+    I hesitated for a moment, then gave her a brief nod before heading for the door, but just before I could reach it, I felt Seline grab my shoulder and turn me around.
+
+    "Hey, just promise me you’ll be careful at Wyrmgate."
+
+    Her eyes were serious, a quiet intensity in her gaze. It wasn’t like the casual concern I’d seen from her before—it was more like a warning, something deeper. "Wyrmgate isn’t as simple as it seems to be."
+
+    Her words hung in the air, making the excitement of heading to the school feel a little more like an unknown risk.
+    
+    "Good luck."
+}
+
++ "Thanks, Seline. I’ll be sure to come back and let you know what happens." 
+    -> wyrmgateA3
++ "I appreciate everything. Maybe I’ll see you around." 
+    -> wyrmgateA3
++ "I’ll figure this out, but thanks for everything. I won’t forget it." 
+    -> wyrmgateA3
 
 === manageA3 ===
 { darrow_introA3 or no_nameA3 or waryA3:
