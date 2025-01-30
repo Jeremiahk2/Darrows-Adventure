@@ -751,12 +751,48 @@ As I approached the door, the guard opened it for me, walking inside. I followed
 Inside, there were various things one might expect to be in a laboratory. Tables, various scientific instruments, shelves full of materials and papers, chalkboards, and so on. That was all within my expectations. What surprised me was the table at the center of the room, what was on it, and the people that surrounded it.
 On the table were several artifacts. To most people, this would also be expected. Except that I recognized these artifacts. They were the same stone statues I remembered seeing on my father's desk yesterday morning. Looking around the room, I realized how they got them. I recognized two of them. They were the same bastards who broke into my house and turned my world upside down. As soon as I saw them, I gripped my hunting knife tightly. I won't make the same mistake twice.
 However, what stopped me were the other people at the table. One of them was an old man with gray, bedraggled hair, wearing a fancy sky-blue rube and a pointed hat. He was examining one of the artifacts with disinterest. The second person was a young, regal woman. She wore a fancy white and gold dress, with a gold tiara on her head. She looked over at me with interest when I entered.
-+ [Attack the two from your home]
-+ "W-What's going on here? Why do you have my dad's artifacts?"
++ [Attack the two from your home] -> attackA4
 + [Run] -> runA4
-+ [Stand there silently] -> standSilentlyA4
++ [Stand there calmly. Showing hostility might be a mistake.] -> standSilentlyA4
 
 === attackA4 ===
+    I charged forward, drawing my knife and lunging at the two men. The woman looked on with interest, while the old man was eyeing Jonji the whole time. Neither of them seemed interested in interfering, which was fine with me. The men, surprised at my immediate attack, struggled to get their weapons out. The guard behind me immediately went to stand in front of the woman and the old man.
+    I slashed at the one closest to me, cutting deep into his stomach, before he kicked me away, clutching at the wound.
+    + [Attack him again] -> attack1
+    + [Attack the other one] -> attack2
+    * {elvesA3} [Use the elves to attack.] ->attack3
+
+=== attack1 ===
+I jumped forward, slashing at his neck this time. But by this time, his friend had already gotten his sword out and blocked it, sending my knife flying out of my hands. Weaponless, I went in for a punch. My punch landed, knocking the first man to the ground. "I HATE YOU!" I yelled, falling with the man and punching him in the face repeatedly. "I HATE YOU!" I yelled, despite the other man slashing me with his sword. I kept punching until the man's face was unrecognizable, even as my body was cut to ribbons. Hopefully, he died too.
+DARROW DIED -> END
+=== attack2 ===
+My eyes darted to the other one, who had now drawn his sword. I sprung at him with murder in my eyes, trying to close distance. The man took a step back, not expecting me to attack him when he had a weapon ready. He clumsily parried my knife, but my momentum carried me forward, knocking him down onto the ground. I pinned his sword arm down, and began punching him in the face.
+After several punches, the first man was able to get his weapon ready. He stood over me, ready to kill me, but I never forgot about him for a minute.
+Waiting until the last moment, I dodged out of the way. His sword passed through the space where my neck just was, plunging into his friend's torso, lodging it deeply in his body. Taking advantage of this opportunity, I stood, grabbing the dead man's sword. I'd never used a sword before, but I knew that the pointy end went in his heart. I stabbed up and through his chest, ending his life with a triumphant roar.
+Blood spurted out of his chest, covering my face and body. I turned to face the guard, the woman, and the old man, with a terrifying smile on my face. Revenge is mine.
+-> postbattleA4
+=== attack3 ===
+I stepped back, quickly taking the pouch with the elf orbs. I whispered into them. "Kill these men."
+Three brutish elves appeared. Two of them went immediately for the uninjured one, while the third elf went for the one I stabbed. The uninjured man quickly abandoned his friend, preparing to defend himself against the two elf attackers. The first elf quickly knocked the first man on his back and began beating him senselessly. The other two elves backed their opponent into a corner. If they had been ordinary humans, they might not have won, but compelled by my order, they threw themselves at the man, tackling him to the ground despite taking grievous injuries. One of them used his own sword to kill him, while the other one was beaten to death.
+It was the best method, but I wished I could have done it myself. When the elves finally disappeared, signifying that their task had been completed, I turned to face the guard, the woman, and the old man contentedly.
+-> postbattleA4
+
+=== postbattleA4 ===
+    The young woman spoke first. "You've surprised me Darrow, son of Ezekiel Grimborne." she smiled, "In a good way." she giggled. Meanwhile, the old man had moved. In all the chaos, I didn't realize I dropped Jonji. He eagerly picked up the small statue, examining it with interest.
+    + "Get your filthy hands off of him!" ->filthyA4
+    + "Who are you?" ->whoA4
+    
+=== filthyA4 ===
+The old man frowned, putting Jonji down on the table. He looked irritated for a moment, before returning to a neutral expression, his eyes still flicking back and forth from me to Jonji. -> whoA4
+=== whoA4 ===
+    The woman wearing the tiara spoke first. "My name is Katrina. I am the Queen of this kingdom. Those two you killed are Mustave and Shin, though clearly you were already acquainted. And this is my royal advisor, Girstone, who also happens to be the headmaster here at Wyrmgate." She said calmly, gesturing at the old man.
+The old man stepped forward, looking me up and down, before breaking into a wide smile. "So! You are the notorious son of Ezekiel Grimborne. Well, that's quite something indeed! I must speak with you as soon as Her Majesty allows. We have much to discuss! Yes! I'm particularly interested in this creation you've brought here." He said, gesturing at Jonji. 
+{hoboconvoA2: The way he spoke was oddly familiar to me. Like that man I met in the forest. Because of the darkness, I hadn't gotten a good look at him, but his voice and mannerisms were unmistakable.}
+It was very disconcerting how neither of them seemed concerned that I killed two of their comrades. Granted, their reactions were different. Girstone seemed like he hadn't even noticed, whereas Queen Katrina seemed pleased, as if I'd done her a great favor.
++ "...Discuss?" -> mageconvo1
++ "What do you want with Jonji?" -> mageconvo2
++ "Did you know my father?" -> mageconvo3
+* {hoboconvoA2} "You're that man from the forest!" -> mageconvo4
 
 === runA4 ===
 Seeing this crowd, I knew I was in a bad situation. I bolted out the door and down the hallway. Behind me, in the room, I heard the young woman sigh. "Go get him." she said. Within moments, my pursuers were on me. I'd outrun them before, but I was in my home turf in the forest. There was a window all the way down the hallway. I might make it if I were to sprint and bust through it.
@@ -788,9 +824,18 @@ I replied, shocked. "Of course! Yes he was conducting some research for me, you 
 === jonjiArtifactA4
     I turned to look at the statue of Jonji. "Jonji... Is an artifact?" I asked, shocked. Girstone looked at me like he thought I was crazy. "Why do you refer to this artifact like it's a real creature? Ezekiel said it was important, but it's odd that you're so attached to it." he said, scratching his head.
     "It's not an artifact! It's Jonji! He turned to stone somehow. I came here in part to figure out how to undo it!" I screamed. 
-    Girstone was about to reply, but Queen Katrina cleared her throat, causing him to fall silent. "It seems there is a misunderstanding. Your father merely told us that he had a breakthrough in his research, the kind that would lead to limitless power, and that his most recent artifact was the reason." she said softly. "If what you say is true, he managed to find a sentient artifact, but due to your negligence, it has reverted to stone." she said, her calm demeanor disappearing. She looked down at me with a cold, quiet anger, as her hand went to a small pocket in her dress.
-    + "W-Wait! It wasn't me! He started changing to stone when your goons attacked!"
-    " [Draw your knife] -> drawKnifeA4
+    Girstone was about to reply, but Queen Katrina cleared her throat, causing him to fall silent. "It seems there is a misunderstanding. Your father merely told us that he had a breakthrough in his research, the kind that would lead to limitless power, and that his most recent artifact was the reason." she said softly. 
+    "If what you say is true, he managed to find a sentient artifact, but due to your negligence, it has reverted to stone." she said, her calm demeanor disappearing. She looked down at me with a cold, quiet anger, as her hand went to a small pocket in her dress.
+    {postbattleA4: She looked over at her two dead subordinates, considering something. "However... I can't rule out that those two were responsible. For all I know, they were enemy spies who were undercover to destroy the artifact. Tell me, were they the ones responsible for... Jonji's current condition?" }
+    * {not postbattleA4} "W-Wait! It wasn't me! He started changing to stone when your goons attacked!" ->shaggyA4
+    * {not postbattleA4} [Draw your knife] -> drawKnifeA4
+    * {postbattleA4} "That's right. Jonji tried to protect me when they attacked, and he got hurt in the process." -> battleResolution
+    
+=== battleResolution ===
+    I said, looking her in the eye. She smiled. "Then I will overlook your blatant murder. It sounds as though justice has been served. You have my official pardon, and my official apology as Queen. I never meant for harm to come to you, the artifact, or your father." she said, looking somewhat apologetic, but still holding her head high.
+    
+    + "Then where is my father?" -> queenconvo2
+    + "Next time, just send a letter. Or better yet, come yourself." -> queenconvo3
 
 === drawKnifeA4 ===
     I drew my knife, ready to defend myself. Rather than a weapon, Queen Katrina pulled a small, gold orb out of the folds of her dress. Caught off guard, I waited to see what she would do. Is she going to throw it at me? No, instead, it began to glow, before a blast of light emanated from it, momentarily blinding me. When I opened my eyes, I realized that the knife was no longer in my hand. In fact, when I held my hand up to my face, I saw that my hand, in fact both my hands, were missing.
@@ -821,11 +866,20 @@ I replied, shocked. "Of course! Yes he was conducting some research for me, you 
     "... I don't know where he is" I replied, shaking my head. "I came here hoping to find answers."
     The queen walked to Girstone, examining Jonji. "I see. That's a shame. But, it's what I expected. However, we do have an opportunity here. With this artifact, we may be able to uncover the nature of his disappearance. You did say he left the house without this artifact, yes?" she asked.
     "Yes. He didn't bring it with him." I said, shifting slightly to one side. The queen looked at me. "Well, then that means he entrusted the artifact to you. I knew your father well, and I'm certain he must have had a reason for that. Therefore... I feel as though our best chance at uncovering it's secrets lies with you. So, as queen, I will allow you to decide what happens to this artifact... Jonji." she said, looking sidelong at Girstone, then flicking her eyes back to me. "But I highly suggest that you make this decision only after careful consideration. If you'd have me, I can share my advice." she said, waiting for my response.
-    + [Ask for her advice]
+    
+    + [Ask for her advice] -> advice
     + [Keep the artifact for yourself. You can't trust either of them. You'll figure out what happened on your own.]
     + [Give the artifact to Girstone. He has the best chance of fixing Jonji.]
     + [Give the artifact to Queen Katrina.. She may be slightly insane, but she doesn't seem evil.]
-    + [Ask what their intentions are.]
+    
+=== advice ===
+    "I see. Well..." She flicked her eyes from Girstone to me "It's fairly simple. Before you got here, we were deciding what to do with the artifacts here. On the one hand, as they are now, they can be useful in advancing my kingdom. We've managed to use a handful of them as energy sources and weapons." She said, lifting her gold orb again. "Having said that, there is a slim chance that they can be researched, potentially making something... Different. That is what Girstone would like to do." she said, gesturing with her orb at Girstone.
+    "Alternatively, as Ezekiel's blood relative, you could decide that the artifact belongs to you, and that you should use it as you see fit." She said. With this, both of them looked at me, their expressions unkind. Having said that, they did look different. Girstone was eyeing my knife, but Katrina was looking me directly in the eyes.
+    W"hile I may be biased, I think you should give the artifact to me of course. I would use it for the benefit of myself and the kingdom. I've been no stranger to using magic in a more... Utilitarian way as you might have seen at night. And with the neighboring kingdom constantly on our borders, it could save many lives." she said earnestly.
+    At this, Girstone spoke up. "I, on the other hand, will use it to advance science and mankind. Which is why I originally asked your father to hand it over. And now, I suggest you do as your father was going to do before he was interrupted. It's what he would have wanted after all." Girstone said, smiling innocently. "We had many plans, your father and I."
+    + [Keep the artifact for yourself. You can't trust either of them. You'll figure out what happened on your own.]
+    + [Give the artifact to Girstone. He has the best chance of fixing Jonji.]
+    + [Give the artifact to Queen Katrina.. She may be slightly insane, but she doesn't seem evil.]
     
     
     
