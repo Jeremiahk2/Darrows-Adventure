@@ -9,7 +9,8 @@ After downloading and unpacking zip folder
 
 
 Resources:
-Google Deepmind Imagen - https://deepmind.google/technologies/imagen-3/
+Google Deepmind Imagen - https://deepmind.google/technologies/imagen-3/  
+
 Prompts: low-magic, fantasy world, dragon, artifacts, magic artifacts, capital city, low magic city,
 victorian, victorian city, medieval, medieval city, tavern, early morning, magic school, school, forest,
 path, path in forest, book with dragon, dragon sketch, street, city street, map, kingdom, map to capital,
