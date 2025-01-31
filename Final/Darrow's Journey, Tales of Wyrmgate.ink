@@ -45,6 +45,7 @@ He paused for a moment to glance at me, and then went right back to scratching.
 + Investigate the book -> bookA1
 
  === bookA1 ===
+ # IMAGE: scenes/jonji_scratching.jpg
 "What did this poor book do to you, Jonji?" I asked as I stepped around the large desk while dodging items on the cluttered ground.
 
 "What is that thing? You don't happen to have a long lost brother do yah?" I asked while looking at the painting of a dragon-like statue that resembled Jonji. Almost immediately he turned and shrieked at me before snapping at my arm with his tiny jaws.
@@ -992,7 +993,6 @@ I replied, shocked. "Of course! Yes he was conducting some research for me, you 
 === mageconvo4
     I exclaimed. Girstone looked down, embarrassed. "Yes... Truth be told, I was quite excited to hear from your father, so I stayed on the path he usually takes, hoping to find out more. When I realized you must be his child, I decided to give you some information, and to guide you here. I saw that you were hiding something, and now I know it was this artifact!" he exclaimed, looking at the statue of Jonji. -> jonjiArtifactA4
 === jonjiArtifactA4
-# IMAGE: scenes/jonji_scratching.jpg
     I turned to look at the statue of Jonji. "Jonji... Is an artifact?" I asked, shocked. Girstone looked at me like he thought I was crazy. "Why do you refer to this artifact like it's a real creature? Ezekiel said it was important, but it's odd that you're so attached to it." he said, scratching his head.
     "It's not an artifact! It's Jonji! He turned to stone somehow. I came here in part to figure out how to undo it!" I screamed. 
     Girstone was about to reply, but Queen Katrina cleared her throat, causing him to fall silent. "It seems there is a misunderstanding. Your father merely told us that he had a breakthrough in his research, the kind that would lead to limitless power, and that his most recent artifact was the reason." she said softly. 
