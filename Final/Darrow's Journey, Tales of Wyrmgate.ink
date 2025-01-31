@@ -220,6 +220,7 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     + [Look at the map] -> mapA2
     
 === mapA2 ===
+    # IMAGE: scenes/map.jpg
     As I sat down to examine the map, Jonji looked over disinterestedly. There wasn't much to see. I pointed to the marking that represented our house, and then followed the rough path we traveled into the woods. 
     "Let's see, Jonji. From here, we could go back to the house and hope that the guards aren't there..." I said. {listenA2: "We really didn't travel that far, so it is an option, if we think the ones chasing us have already returned from where they came."} {keepGoingA2: "But we've come pretty far. It might be easier to go somewhere else" I muttered, glancing at Jonji's injured leg.}
     Beyond the forest, the map showed the capital city of the kingdom. I had never been there before, but it would be somewhere to stay while we figured things out. We can't stay in the forest for too long. In the past, I had only stayed in the forest for a few days while hunting.
@@ -434,6 +435,7 @@ DARROW DIED.
     + [Continue onwards. Nearly there...] -> maincapitalApproachA2
     
 === maincapitalApproachA2 ===
+# IMAGE: scenes/main_road_capital_view.jpg
     After a short walk, I crested a hill and finally saw it. The rolling hills continued, before becoming more subdued, turning into grassy plains. The sun cast an orange light the grass, making it look like autumn had come early. 
     But the crown jewel was a large, walled city some distance away. From my vantage point, it appeared that the city rested on a hill itself, because some parts of the city were visible over the walls. 
     Continuing along the road, new details came into view. The walls were quite high, but not that high. It was high enough to keep people from entering, but certainly not high enough to keep it from being attacked by siege weaponry. Strange.
@@ -447,6 +449,7 @@ DARROW DIED.
     I passed by them and finally entered the city. Time for some answers.
     ->introA3
 === arriveSideA2 ===
+# IMAGE: scenes/side_road_capital_view.jpg
     After just a few hours of walking, I could tell we were nearing the end of the forest. The trees started to be less crowded, and the moon was much more visible. At long last, the forest opened up to reveal a large landscape, complete with rolling hills and grassy plains. 
     But the crown jewel was a large, walled city some distance away. From my vantage point, it appeared that the city rested on a hill itself, because some parts of the city were visible over the walls. I couldn't quite make out any details, aside from the lights. It was a stark contrast to our home at night, which always looked dark and foreboding. This, however, looked welcoming.
     Continuing along the path, new details came into view. The walls were quite high, but not that high. It was high enough to keep people from entering, but certainly not high enough to keep it from being attacked by siege weaponry. Strange.
@@ -477,6 +480,7 @@ DARROW DIED.
 -> introA3
 
 === introA3 ===
+# IMAGE: scenes/city_entrance.jpg
 As I made my way into the city, I felt like a small ant entering a human's house for the first time. Truthfully, I’ve only ever been to the capital once—12 years ago. The only thing I remember from that trip was following Dad around while he met with a group of scholars from Wyrmgate, the city’s most prestigious school for studying enchanted artifacts. Come to think of it Jonji was so little back then. I think I had only found him a week prior.
 
 The capital city loomed large around me. The streets buzzed with activity, the air filled with strange smells and distant chatter. My legs ached from the journey, and my stomach growled. I needed a place to sleep.
@@ -839,6 +843,7 @@ I hesitated for a moment, watching Seline walk away, before deciding to head to 
 The tavern was tucked away down a narrow side street. It was a quiet little place, tucked between larger buildings. Inside, a warm fire crackled in the hearth, and a few patrons lingered at tables, nursing drinks and talking in low voices. I approached the bar.
 
 The barkeep, a heavyset man with a scar over one eye, looked up from cleaning a mug. "You look like you’ve had a long day. What can I do for you?"
+# IMAGE: scenes/barkeep.jpg
 
 + "I need a room for the night." 
     -> room_requestA3
@@ -865,6 +870,7 @@ I had no other choice but to go there.
 -> wyrmgateA3
 
 === wyrmgateA3 ===
+# IMAGE: scenes/wyrmgate.jpg
 The journey to Wyrmgate was less than a day's walk, and when I finally arrived, I stood before the towering gates of the legendary school. It was more magnificent than I'd ever imagined. The spires reached high into the sky, covered in ivy and ancient carvings that seemed to whisper of a long history.
 
 I approached the gate, feeling both awe and anxiety stirring in my chest. The guards at the entrance looked at me curiously.
@@ -909,6 +915,7 @@ At last, the guard stopped at a large door. To my surprise, there was a plaque i
 
 === dadLabA4 ===
 As I approached the door, the guard opened it for me, walking inside. I followed him, and what I saw shocked me to my core.
+# IMAGE: scenes/wyrmgate_meeting.jpg
 Inside, there were various things one might expect to be in a laboratory. Tables, various scientific instruments, shelves full of materials and papers, chalkboards, and so on. That was all within my expectations. What surprised me was the table at the center of the room, what was on it, and the people that surrounded it.
 On the table were several artifacts. To most people, this would also be expected. Except that I recognized these artifacts. They were the same stone statues I remembered seeing on my father's desk yesterday morning. Looking around the room, I realized how they got them. I recognized two of them. They were the same bastards who broke into my house and turned my world upside down. As soon as I saw them, I gripped my hunting knife tightly. I won't make the same mistake twice.
 However, what stopped me were the other people at the table. One of them was an old man with gray, bedraggled hair, wearing a fancy sky-blue rube and a pointed hat. He was examining one of the artifacts with disinterest. The second person was a young, regal woman. She wore a fancy white and gold dress, with a gold tiara on her head. She looked over at me with interest when I entered.
@@ -985,6 +992,7 @@ I replied, shocked. "Of course! Yes he was conducting some research for me, you 
 === mageconvo4
     I exclaimed. Girstone looked down, embarrassed. "Yes... Truth be told, I was quite excited to hear from your father, so I stayed on the path he usually takes, hoping to find out more. When I realized you must be his child, I decided to give you some information, and to guide you here. I saw that you were hiding something, and now I know it was this artifact!" he exclaimed, looking at the statue of Jonji. -> jonjiArtifactA4
 === jonjiArtifactA4
+# IMAGE: scenes/jonji_scratching.jpg
     I turned to look at the statue of Jonji. "Jonji... Is an artifact?" I asked, shocked. Girstone looked at me like he thought I was crazy. "Why do you refer to this artifact like it's a real creature? Ezekiel said it was important, but it's odd that you're so attached to it." he said, scratching his head.
     "It's not an artifact! It's Jonji! He turned to stone somehow. I came here in part to figure out how to undo it!" I screamed. 
     Girstone was about to reply, but Queen Katrina cleared her throat, causing him to fall silent. "It seems there is a misunderstanding. Your father merely told us that he had a breakthrough in his research, the kind that would lead to limitless power, and that his most recent artifact was the reason." she said softly. 
