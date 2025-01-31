@@ -1,6 +1,6 @@
 # IMAGE: scenes/darrow_home.jpg
 
-Sunlight gleamed off the morning dew, and the soft sound of windchimes drifted lazily through the air. The large Victorian house stood tall, unmoving in the meadow. A shining star in the otherwise quiet expanse—or perhaps an off-key note, discordant and out of place.
+Sunlight gleamed off the morning dew, and the soft sound of windchimes drifted lazily through the air. The large, two story house stood, unmoving in the meadow. It was surprisingly well-kept despite the remote environment. A shining star in the otherwise quiet expanse—or perhaps an off-key note, discordant and out of place.
 
 Darrow turned, a strange tugging sensation pulling at him from deep within. It was as though the world had shifted ever so slightly, but the air remained unnaturally still. Something was wrong. Too quiet. He had lived here all his life, but today, the peace felt... hollow. Like a sound waiting to be made, but never coming.
 
@@ -80,7 +80,7 @@ We don't normally get guests and that is definitely not dad outside. I suppose I
 === good_greetingA1 ===
 "Can I help you gentlemen with something?", I said as I opened the door to reveal two large men, both wearing long trench coats. The one to the left looked younger and wore a face of seriousness. The one to the right was much older and didn't even seem to notice me.
 
-"Where is your father?", said the man to the left in a rough and demanding tone.
+"Where is your father?" said the man to the left in a rough and demanding tone.
 
 + "Who's asking?"
 -> ask_againA1
@@ -94,9 +94,9 @@ We don't normally get guests and that is definitely not dad outside. I suppose I
 + "I think you guys should come back another time" -> enter_houseA1
 
 === enter_houseA1 ===
-Within a flash I felt my body collide with the floor. The man to the right had barely pushed my chest, but it felt as if I had been stepped on by a horse. Within the action Jonji had jumped from my shoulder directly at my opponent, but as soon as he had left my shoulder he was thrown back to the ground.
+In a flash I felt my body collide with the floor. The man to the right had barely pushed my chest, but it felt as if I had been stepped on by a horse. As this happened, Jonji had jumped from my shoulder directly at my opponent, but as soon as he had left my shoulder he was thrown back to the ground.
 
-"Jonji!!", as I rushed over to the tiny dragon to ensure he was okay the men paid me no mind. They quickly started through the house. The older one went straight to dads office and the younger one went up the stairs. After ensuring Jonji was okay I stood up.
+"Jonji!!", I yelled as I rushed over to the tiny dragon. The men paid me no mind, quickly hurrying through the house. The older one went straight to dads office and the younger one went up the stairs. After ensuring Jonji was okay I stood up.
 
 + [Follow the younger man upstairs.] -> upstairsA1
 + [Follow the older man into dads office.] ->dads_officeA1
@@ -205,34 +205,34 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     
 === checkJonjiA2 ===
     Jonji, for the most part, didn't look that bad. He had quite the wound on his right front leg, but it didn't appear to be that deep. Despite this, he appeared to be in immense pain, as he covered his wound with his other foot, and twitched away when I tried to touch it.
-    + "I know it hurts, but hold still Jonji. I need to take a closer look" ->closerLookA2
+    + "I know it hurts, but hold still Jonji. I need to take a closer look." ->closerLookA2
     + "Don't worry, I'll bandage it for you. It'll be good as new in no time." -> bandageA2
 
 === closerLookA2 ===
-    As I peered closer, I noticed something peculiar. First, the "blood" on the wound wasn't your typical red color, but blue. Perhaps whatever creature Jonji is just have blue blood? What was stranger is that the skin around the wound had started to turn gray. Could it be infection? I have nothing to clean it with... But I can bandage it.
+    As I peered closer, I noticed something peculiar. First, the "blood" on the wound wasn't your typical red color, but blue. Perhaps Jonji just had blue blood? What was stranger was that the skin around the wound had started to turn gray. Could it be infection? I had nothing to clean it with... But I could bandage it.
     + [Bandage the wound] -> bandageA2
 === bandageA2 ===
     I use my hunting knife to tear a scrap of cloth off the bottom of my pants, before tying it around the wound.
     "Can you walk on it?" I asked Jonji, not expecting much.
     Jonji, for his part, made a very deliberate effort to look exasperated as he attempted to get on both feet, before falling back on the ground unceremoniously.
-    "Thanks. I get it." I said, slightly annoyed at Jonji not taking the situation seriously. "Well we need to decide what to do now." I muttered, taking stock of what I brought with me. It wasn't much. A shabby map of the kingdom and a bit of food. We were in a bad situation. 
+    "Thanks. I get it." I said, slightly annoyed at Jonji for not taking the situation seriously. "Well we need to decide what to do now." I muttered, taking stock of what I brought with me. It wasn't much. A shabby map of the kingdom and a bit of food. We were in a bad situation. 
     Without much food and with Jonji's leg the way it was, we needed to find somewhere to go, not only to get answers but also somewhere safe to rest and recover.
     + [Look at the map] -> mapA2
     
 === mapA2 ===
-    As I sat down to examine the map, Jonji looked over disinterestedly at the map. There wasn't much to see. I pointed to the marking that represented our house, and then followed the rough path we traveled into the woods. 
+    As I sat down to examine the map, Jonji looked over disinterestedly. There wasn't much to see. I pointed to the marking that represented our house, and then followed the rough path we traveled into the woods. 
     "Let's see, Jonji. From here, we could go back to the house and hope that the guards aren't there..." I said. {listenA2: "We really didn't travel that far, so it is an option, if we think the ones chasing us have already returned from where they came."} {keepGoingA2: "But we've come pretty far. It might be easier to go somewhere else" I muttered, glancing at Jonji's injured leg.}
     Beyond the forest, the map showed the capital city of the kingdom. I had never been there before, but it would be somewhere to stay while we figured things out. We can't stay in the forest for too long. In the past, I had only stayed in the forest for a few days while hunting.
     {closerLookA2: Also, if Jonji's leg is infected, we might not be able to heal it at my house...}
     
     + "Let's try to return home. Maybe those men have left by now." -> backHomeA2
-    + "Let's venture to the capital city. We need to figure out what's going on, and it's not safe at home." -> toCapitalA2
+    + "Let's venture to the capital. We need to figure out what's going on, and it's not safe at home." -> toCapitalA2
     * {closerLookA2}"Let's go to the capital city. I'm worried about your leg. It could be infected or worse, and someone there might be able to help." ->toCapitalA2
     
     === toCapitalA2 ===
-    Jonji seemed to agree, pointing his good leg at the capitol marking on the map. 
-    Tracing back to our location, it seemed like there were two ways to go. The first way is the main road. The main road has it's advantages. It's faster, and with any luck will be safer. On the other hand, it could be more dangerous, since bandits and the like would be more likely to attack it, and we'd be more likely to run into our own attackers.
-    Alternatively, there was a forested path that my father usually used. He liked it because he doesn't like people that much, and its relatively unused. Having said that, it's longer, and you never know what type of people you might meet on it. But, it's more subtle and less danger prone.
+    Jonji seemed to agree, pointing his good leg at the capital marking on the map. 
+    Tracing back to our location, it seemed like there were two ways to go. The first way was the main road. The main road had it's advantages. It's faster, and with any luck would be safer. On the other hand, it could be more dangerous, since bandits and the like would be more likely to attack it, and we'd be more likely to run into those two from the house.
+    Alternatively, there was a forested path that my father usually used. He liked it because he doesn't like people that much, and it's relatively unused. Having said that, it's longer, and you never know what type of people you might meet on it. But, it's more subtle and less danger prone.
     
     + "We should take the side path. We don't want to run into those men again." -> sidePathA2
     + "We should take the main road. We need to get out of here fast." -> mainRoadA2
@@ -246,17 +246,15 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     "Don't be such a drama queen. I'll carry you like before."
     
     After picking up Jonji, I headed back the way I came, hoping the men would be gone by now.
-    
-    {listenA2: 
-    It didn't take long to get there, and soon enough we peered through the trees at our house. Sure enough, there were no signs of the men from before. Still, considering that it hadn't been that long, it's odd they left so soon without looking for us.
+
+    Soon enough we were peering through the trees at our house. As I hoped, there were no signs of the men from before. Still, considering that it hadn't been that long, it's odd they left so soon without looking for us.
     + [Go to the house. There's no reason for them to come back.] -> houseA2
     + [Turn back. They could come back any time. It might not be safe to stay here.] -> turnBackA2
-    }
 === turnBackA2 ===
-    With a heavy heart, I decided to turn back. I grew up in that house. I raised Jonji in that house, grew to love my father in that house, and lost my mother in that house. But it's not safe. In fact, my father is still a tthe capitol, I should go and warn him not to return.
-    I headed back to the clearing I stopped at before and examined the map in my bag again. To the capitol it is.
-    Tracing the map back to our location from the capitol, it seemed like there were two ways to go. The first way is the main road. The main road has it's advantages. It's faster, and with any luck will be safer. On the other hand, it could be more dangerous, since bandits and the like would be more likely to attack it, and we'd be more likely to run into our own attackers.
-    Alternatively, there was a forested path that my father usually used. He liked it because he doesn't like people that much, and its relatively unused. Having said that, it's longer, and you never know what type of people you might meet on it. But, it's more subtle and less danger prone. Also, if my father is returning, I'll probably bump into him.
+    With a heavy heart, I decided to turn back. I grew up in that house. I raised Jonji in that house, grew to love my father in that house, and lost my mother in that house. But it's not safe. In fact, my father is still a the capital, I should go and warn him not to return.
+    I headed back to the clearing I stopped at before and examined the map in my bag again. To the capital it is.
+    Tracing the map back to our location from the capital, it seemed like there were two ways to go. The first way was the main road. The main road had it's advantages. It's faster, and with any luck would be safer. On the other hand, it could be more dangerous, since bandits and the like would be more likely to attack it, and we'd be more likely to run into our own attackers.
+    Alternatively, there was a forested path that my father usually used. He liked it because he didn't like people that much, and it's relatively unused. Having said that, it's longer, and you never know what type of people you might meet on it. But, it's more subtle and less danger prone. Also, if my father is returning, I'd probably bump into him.
     
     + "We should take the side path. We might find father, and we don't want to run into those men again." -> sidePathA2
     + "We should take the main road. We need to get out of here fast." -> mainRoadA2
@@ -271,12 +269,12 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     
 === safeDeath ===
     I hurried to my father's room, throwing open the door and getting on all fours to look under the bed. To my great relief, the box was still there.
-    To my everlasting dismay, however, I heard the sliding noise of a sword on a scabard, and turned to see a hulking man above me. It seems they left someone in case I came back. They're smart, whoever they are. This was the last thought I had before the sword came down, ending my life.
+    To my everlasting dismay, however, I heard the sliding noise of a sword on a scabard, and turned to see a hulking man above me. It seemed they left someone in case I came back. They're smart, whoever they are. This was the last thought I had before the sword came down, ending my life.
     
     DARROW DIED
     -> END
 === askJonjiA2 ===
-    Jonji looked at me and then down at the map, before simply putting a claw on the capital. Clearly, he wants to get there sooner than later.
+    Jonji looked at me and then down at the map, before simply putting a claw on the capital. Clearly, he wants to get there sooner rather than later.
     I rolled my eyes. "Have I ever mentioned how helpful you are?" I replied sarcastically, before considering the map again.
     
     + "We should take the side path. We might find father, and we don't want to run into those men again." -> sidePathA2
@@ -301,7 +299,7 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     "Maybe they wanted something from the house? They definitely didn't seem like common robbers though." I remarked, thinking about how they easily overpowered me.
     }
     "Perhaps they could have been soldiers... They were certainly strong enough for that to be the case." I said, puzzled.
-    When no immediate answers came to me, I sighed. "Hopefully we find father along the path. He might know. Perhaps he forgot to pay taxes."
+    When no immediate answers came to me, I sighed. "Hopefully we find father along the path. He might know. Perhaps he forgot to pay his taxes."
     {listenA2 and turnBackA2: After quite a bit of walking, we finally arrived at the {mainRoadA2: main road} {sidePathA2: path, though it was a bit hard to find.}}
     {keepGoingA2: After a short walk, we arrived at the {mainRoadA2: main road} {sidePathA2: path, though finding it proved more difficult than expected.}}
     
@@ -313,16 +311,13 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     Before setting out on the path, I decided to check on Jonji's condition. It was worse than expected. The good news is that the wound had stopped bleeding.
     {checkJonjiA2: The bad news was that the gray area around the wound had continued to spread. Infection usually wouldn't spread this fast. Something must be wrong.}
     {not checkJonjiA2: the bad news was that a strange gray area had formed around the wound. It almost looked like infection, but something about it seemed unnatural.}
-    Jonji simply looked down at his leg, then back up at me, and pointed his head in the direction of the capitol. He's right, The sooner we get there, the sooner we might find help for him.
+    Jonji simply looked down at his leg, then back up at me, and pointed his head in the direction of the capital. He's right, The sooner we get there, the sooner we might find help for him.
     * {sidePathA2} [Follow the path] -> onSideRoadA2
     * {mainRoadA2} [Follow the road] -> onMainRoadA2
 === onSideRoadA2 ===
     We set off along the forest path. It was still morning, but the path was long. It could easily take until well after nightfall to reach the city. Father would usually leave first thing in the morning, but I didn't have that luxury.
     The path certainly had its perks. For one, the sun didn't bother me as much thanks to the thick canopy of leaves overhead. Still, I could have done without the roots constantly tripping me up. But the scenery was nice. It was different than traveling without a path. Since the path's area had been cleared, you had a better view of the beautiful forest. It didn't seem as dangerous either. Though that might change when night falls.
     + I quickened my pace. I didn't want to find out. -> sideRoadHalfA2
-    
-    
--> END
 === onMainRoadA2 ===
     We set off along the main road. It was still morning, so I estimated we would reach the city before sundown. Which was good; father had always said it's dangerous to be on the road at night.
     The road was like any road. Long and hard on my feet. I was used to traversing forests, and the hard stone roads bothered my feet more than I expected. On the bright side, after a short while we emerged from the forest into open meadows, which were beautiful this time of day. The wind sent ripples through the grass like the waves of an ocean. Why couldn't we live here?
@@ -340,12 +335,12 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     
     Stunned by the man's enthusiastic greeting, I stuttered for a moment.
     
-    + "I-I'm on my way to the capitol." -> hoboconvoA2
+    + "I-I'm on my way to the capital." -> hoboconvoA2
     + "N-No reason!" -> hoboconvoA2
     + "I'm exploring!" -> hoboconvoA2
     
 === hoboconvoA2 ===
-    "Oh is that so? Well an old man like me knows not to bother young men like you. Still, I wonder if you've heard the news yet?" the man asked earnestly, rubbming his hands together like he'd been dying to tell someone his gossip.
+    "Oh is that so? Well an old man like me knows not to bother young men like you. Still, I wonder if you've heard the news yet?" the man asked earnestly, rubbing his hands together like he'd been dying to tell someone his gossip.
     + "News? What news?" -> whatNewsA2
     
 === whatNewsA2 ===
@@ -358,16 +353,16 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     I tried to contain myself. Magic? Surely they didn't come seeking magic at my house? The only magic there are in the artifacts my dad studies, but those don't actually work!
     "Something wrong, kiddo?" the man asked, still smiling.
     
-    + "It's nothing... How far to the capitol?" -> hoboLeavesA2
-    + "No. I haven't been to the capitol before. A shame about the magic." -> hoboLeavesA2
+    + "It's nothing... How far to the capital?" -> hoboLeavesA2
+    + "No. I haven't been to the capital before. A shame about the magic." -> hoboLeavesA2
     + "No. Thanks for telling me. I'll be on my way then." -> hoboLeavesA2
     
 === hoboLeavesA2 ===
-    The man considered my words before replying. "I see. The capitol is only a couple hours from here. Here..." He reached into his pack and pulled out a second lantern, offering it to me earnestly. "It'll be dark soon. Young lads like you shouldn't be wandering about at night." he said, his smile fading.
+    The man considered my words before replying. "I see. The capital is only a couple hours from here. Here..." He reached into his pack and pulled out a second lantern, offering it to me earnestly. "It'll be dark soon. Young lads like you shouldn't be wandering about at night." he said, his smile fading.
     The man's change in demeanor caught me off guard, and all I could do was accept. "Th-Thank you. That's very kind of you. Have a safe journey."
     The man nodded and continued on without another word, disappearing into the darkness of the forest.
     I lit the lantern with the small wick inside, turning away from the direction the old man went.
-    + [Continue to the capitol.] -> arriveSideA2
+    + [Continue to the capital.] -> arriveSideA2
 === hideAndSeekA2 ===
     I hid in the underbrush, putting a finger to my lips and glaring at Jonji. Eventually, we saw an old man approaching, carrying a lantern and a small pack. Straining my ears, I could barely make out words.
     "I'm far too old for this. But I had best keep going..."
@@ -380,14 +375,14 @@ Struggling to catch my breath, I dashed into the forest, clutching Jonji tightly
     
     Stunned by the man's enthusiastic greeting, I stuttered for a moment.
     
-    + "I-I'm on my way to the capitol." -> hoboconvoA2
+    + "I-I'm on my way to the capital." -> hoboconvoA2
     + "N-No reason!" -> hoboconvoA2
     + "I'm exploring!" -> hoboconvoA2
     
 === passByA2 ===
     The man passed by, not noticing me in the slightest. For a moment, it looked like he spotted me, squinting into the forest. But after a moment he turned away, muttering something under his breath.
     Breathing a sigh of relief, I waited for him to be out of sight before continuing down the path.
-    + [Best to avoid him. We must be close to the capitol now.] -> arriveSideA2
+    + [Best to avoid him. We must be close to the capital now.] -> arriveSideA2
     
 
 === mainRoadHalfA2 ===
@@ -417,8 +412,8 @@ DARROW DIED.
 === continueMainRoadA2 ===
     The guard shoved me out of the way and continued. Since I was so close, I could hear a faint voice from inside the cart. It was soft and kind. It sounded vaguely feminine. "Enough of these interruptions. Doesn't that oaf know we're in a hurry? If we don't secure the artifact, we will have many more problems on our hands."
     My pace quickened as I heard this. After some time, I turned to see the carriage dipping below the hill. At this, I allowed myself to breathe. They are after one of father's artifacts! But why? Well, I suppose it might not be one of father's, but that's too much of a coincidence. Why are they travelling that way then? They already raided my house...
-    I pondered this for a while, but when no answers came to me, I had no choice but to continue along the road. If answers exist, they're likely at the capitol.
-    + [Continue onwards. Nearly there.] -> mainCapitolApproachA2
+    I pondered this for a while, but when no answers came to me, I had no choice but to continue along the road. If answers exist, they're likely at the capital.
+    + [Continue onwards. Nearly there...] -> maincapitalApproachA2
 
 === mainRoadHideA2 ===
     I hid myself behind a small boulder. It was tight, but with the sun at my back, it might be hard for them to see me.
@@ -428,7 +423,7 @@ DARROW DIED.
     Thankfully, I didn't have to use any excuses. Another guard came over, grabbing the first one. "Come back here you idiot. Do you want your head on a pike? Or did you forget we're in a hurry?" he exclaimed, yanking him back to the cart.
     I watched them go. When they arrived back at the cart, one of the soldiers, their captain perhaps, pulled them aside. Whoops. I suppose I got them in trouble. Oh well. At least they didn't spot me.
     As soon as the cart dipped below the hill, I got back on the road.
-    + [Continue onwards. Nearly there.] -> mainCapitolApproachA2
+    + [Continue onwards. Nearly there...] -> maincapitalApproachA2
 
 === mainRoadPassA2 ===
     I mustered up my courage and tried to walk normally towards them. I contemplated the proper way to walk as I quickly forgot which arm moves with which leg. Eventually I figured it out and made my way towards them.
@@ -436,9 +431,9 @@ DARROW DIED.
     The soldiers sneered at me as they passed, but I did manage to hear something. A soft, female voice inside the cart.
     "...That's why we need to hurry. Why did we have to take the ox cart you fool? We could have been there by now with the carriage. If we fail to get the..."
     My eavesdropping was interrupted by a soldier giving me an angry look and shoving me to the side as he passed. Thankfully, he didn't do anything else, and I passed without incident.
-    + [Continue onwards. Nearly there.] -> mainCapitolApproachA2
+    + [Continue onwards. Nearly there...] -> maincapitalApproachA2
     
-=== mainCapitolApproachA2 ===
+=== maincapitalApproachA2 ===
     After a short walk, I crested a hill and finally saw it. The rolling hills continued, before becoming more subdued, turning into grassy plains. The sun cast an orange light the grass, making it look like autumn had come early. 
     But the crown jewel was a large, walled city some distance away. From my vantage point, it appeared that the city rested on a hill itself, because some parts of the city were visible over the walls. 
     Continuing along the road, new details came into view. The walls were quite high, but not that high. It was high enough to keep people from entering, but certainly not high enough to keep it from being attacked by siege weaponry. Strange.
@@ -515,8 +510,7 @@ I spotted a crooked sign above a narrow door. It looked out of place amid the gr
 + "Do they really work?" 
 -> elvesQuestionsA3
 + "No thanks, I'm fine." 
--> not_interestedA3
--> END
+-> not_interestedA3 
 
 === elvesQuestionsA3 ===
 I asked, skeptical.
